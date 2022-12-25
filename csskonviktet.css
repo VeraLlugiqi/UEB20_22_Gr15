@@ -9,15 +9,75 @@
     --nav-width: 350px;
     --footer-height: 40px;
 }
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
 body
 {
+    height: auto;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
     background-color: var(--bgcolor);
 }
 
-img{
-    width:300px;
-    height:200px;
+
+/*Slideri i fotove pjesa e pare*/
+.oborri{
+position: relative;
+width:50%;
+overflow:hidden;
 }
+
+.slider1{
+    display:flex;
+    width:auto;
+    height: 400px;
+    transition: all 0.15s ease;
+}
+.slider1 img{
+    height:400px;
+    width:100%;
+    transition: all 0.15s ease;
+}
+.slider1 input{
+    display:none;
+}
+.dots1{
+    display:flex;
+    justify-content: center;
+    margin:5px;
+}
+.dots1 label{
+    height: 15px;
+    width:15px;
+    border-radius: 50%;
+    border:solid rgb(160, 156, 156) 3px;
+    cursor:pointer;
+    transition: all 0.15s ease;
+}
+.dots1 label:hover{
+    background: rgb(152, 148, 148);
+}
+#image1:checked ~ .m1{
+    margin-left:0;
+}
+#image2:checked~.m2{
+    margin-left:-100%;
+}
+#image3:checked~.m3{
+    margin-left:-200%;
+}
+#image4:checked~.m1{
+    margin-left:-300%;
+}
+
+
+
+
 table{
     border: 2px solid grey;
 }
