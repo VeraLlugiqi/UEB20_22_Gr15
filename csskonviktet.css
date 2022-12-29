@@ -1,82 +1,45 @@
 :root{
-    --blue:rgb(143, 143, 165);
+    --firered:rgb(175, 31, 31);
     --bgcolor:rgb(240, 235, 235);
-    --blue-hover: #4c32b4;
+    --red-hover: #9c1515;
     --white: #fdfdfd;
     --bg: #e2cdcd;
     --border-color: #574d4d;
     --header-height: 80px;
-    --nav-width: 350px;
+    --nav-width: 300px;
     --footer-height: 40px;
+    
 }
 *{
     box-sizing:border-box;
     margin:0;
     padding:0;
 }
+/*.header-kon{
+    text-align: center;
+    /* float: left;
+    width: 100%;
+    padding: 20px 60px;
+    height: var(--header-height);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+
+}*/
 body
 {
     height: auto;
     width:100%;
     display:flex;
     justify-content: center;
-    align-items:center;
     background-color: var(--bgcolor);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
 }
-
-
-/*Slideri i fotove pjesa e pare*/
-.oborri{
-position: relative;
-width:50%;
-overflow:hidden;
+.body-kon{
+    float:calc(100% - var(--nav-width));
+    align-items:center;
 }
-
-.slider1{
-    display:flex;
-    width:auto;
-    height: 400px;
-    transition: all 0.15s ease;
-}
-.slider1 img{
-    height:400px;
-    width:100%;
-    transition: all 0.15s ease;
-}
-.slider1 input{
-    display:none;
-}
-.dots1{
-    display:flex;
-    justify-content: center;
-    margin:5px;
-}
-.dots1 label{
-    height: 15px;
-    width:15px;
-    border-radius: 50%;
-    border:solid rgb(160, 156, 156) 3px;
-    cursor:pointer;
-    transition: all 0.15s ease;
-}
-.dots1 label:hover{
-    background: rgb(152, 148, 148);
-}
-#image1:checked ~ .m1{
-    margin-left:0;
-}
-#image2:checked~.m2{
-    margin-left:-100%;
-}
-#image3:checked~.m3{
-    margin-left:-200%;
-}
-#image4:checked~.m1{
-    margin-left:-300%;
-}
-
-
-
 
 table{
     border: 2px solid grey;
@@ -90,6 +53,7 @@ table td{
 
 #info-konvikte{
     width: 100%;
+
     /*height: calc(100% - (var(--footer-height) + var(--header-height)));*/
 }
 
@@ -99,7 +63,7 @@ aside {
     border-right: 1px solid var(--border-color);
     height: 100%;
 }
-.konviktet{
+.left-konviktet{
     float: left;
     width: 100%;
     height: 100%;
@@ -107,22 +71,37 @@ aside {
     list-style-type: none;
     padding: 0;
 }
+.left-konv{
+    height: 100%;
+}
+
 
 .konviktet li{
     width: 100%;
     float: left;
 }
 
-.nav{
+.nav-kon{
     float: left;
     width: 100%;
     padding: 20px 60px;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    color: var(--blue);
+    color: var(--firered);
     border-bottom: 1px solid var(--border-color);
 }
-.nav:hover{
-    color: var(--blue-hover);
+
+/*rritja e fotove pas h*/
+.grow{
+    transition: .3s ease;
+}
+img{
+    width:200px;
+    height: 150px;
+}
+.grow:hover{
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
 }
