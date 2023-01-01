@@ -1,77 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <link rel="stylesheet" href="csskonviktet.css" type="text/css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="csskonviktet.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header class="header-kon">
+      <h3 class="main-header-text header-title">Informata rreth konvikteve</h3>
+      <h3 class="header-title">Qmimet | Informata</h3>
+      <h3 class="header-title">Biblotekat</h3>
+      <details>
+        <summary style="font-size: 19px"><b>Konviktet</b></summary>
+        <div class="datails-div">
+          <p class="detail-links" id="paragraph"><a href=""> Konvikti 1 </a></p>
+          <p class="detail-links" id="paragraph"><a href=""> Konvikti 2 </a></p>
+          <p class="detail-links" id="paragraph"><a href=""> Konvikti 3 </a></p>
+          <p class="detail-links" id="paragraph"><a href=""> Konvikti 4 </a></p>
+          <p class="detail-links" id="paragraph"><a href=""> Konvikti 5 </a></p>
+          <p class="detail-links" id="paragraph"><a href=""> Konvikti 6 </a></p>
+          <p class="detail-links" id="paragraph"><a href=""> Konvikti 7 </a></p>
+          <p class="detail-links" id="paragraph"><a href=""> Konvikti 8 </a></p>
+        </div>
+      </details>
+    </header>
+    <div id="info-konvikte">
+      <div class="oborri">
+        <h1 class="oborri-header">Oborri</h1>
+        <span class="material-symbols-outlined" id="slider-left">
+          arrow_back
+        </span>
 
-</head>
-<body>
-<div id="info-konvikte">
-<header class="header-kon">
-    <h3>Informata rreth konvikteve</h3>
-</footer>
-    <aside >
-        <ul class="left-konviktet">
-           <li class="nav-kon"><a href="#">Konvikti 1</a></li>
-           <li class="nav-kon"><a href="#">Konvikti 2</a></li>
-           <li class="nav-kon"><a href="#">Konvikti 3</a></li>
-           <li class="nav-kon"><a href="#">Konvikti 4</a></li>
-           <li class="nav-kon"><a href="#">Konvikti 5</a></li>
-           <li class="nav-kon"><a href="#">Konvikti 6</a></li>
-           <li class="nav-kon"><a href="#">Konvikti 7</a></li>
-           <li class="nav-kon"><a href="#">Konvikti 8</a></li>
-        </ul>
-     </aside>
-    <div class="body-kon">
-    <div class="qmimet">
-        <h1>Qmimet Dhe informata</h1>
-        <table id="tabelaqmimeve" border="1" >
-            <tr id="renitabela">
-                <td>Qmimi për muaj</td>
-                <td >20 €</td>
-            </tr>
-           
-            <tr id="renitabela">
-                <td>Lirimi nga pagesa</td>
-                <td>##</td>
-            </tr>
-             <tr id="renitabela">
-                <td>Lista e pritjes</td>
-                <td >##</td>
-            </tr>
-        </table>
+        <span class="material-symbols-outlined" id="slider-right">
+          arrow_forward
+        </span>
 
+        <img alt="" id="grow" />
+      </div>
+      <main class="bottom-part">
+        <div class="body-kon">
+          <div class="qmimet">
+            <h1 class="bottom-title">Qmimet Dhe informata</h1>
+            <div class="templates">
+              <div class="items">
+                <div class="title">
+                  <span>Qmimi për muaj</span>
+                </div>
+                <div class="content">
+                  <span>20€</span>
+                </div>
+              </div>
+              <div class="items">
+                <div class="title">
+                  <span>Lirimi nga pagesa</span>
+                </div>
+                <div class="content">
+                  <a href="#"
+                    ><img
+                      src="https://cdn-icons-png.flaticon.com/512/337/337946.png"
+                      alt="pdf-icon"
+                      width="40px"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="items">
+                <div class="title">
+                  <span>Lista e pritjes</span>
+                </div>
+                <div class="content">
+                  <a href="#"
+                    ><img
+                      src="https://cdn-icons-png.flaticon.com/512/337/337946.png"
+                      alt="pdf-icon"
+                      width="40px"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="items">
+                <div class="title">
+                  <span>Fletpagesa e re</span>
+                </div>
+                <div class="content">
+                  <a href="#">
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/512/3132/3132909.png"
+                      alt="fletpagesa"
+                      width="50px"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="Biblotekat">
+          <h1 id="bib">Bibloteka</h1>
+          <h2>Biblotekat qe munedeni te perdorni:</h2>
+          <h3>Bibloteka ne konviktin 5</h3>
+          <div class="bibloteka-images">
+            <img
+              src="https://gazetainfokus.com/wp-content/uploads/2018/12/47140233_2809428272416189_5003358049088307200_n-768x576.jpg"
+            />
+            <img
+              src="https://gazetainfokus.com/wp-content/uploads/2018/12/47125469_2809428262416190_5623446937450577920_n.jpg"
+            />
+          </div>
+          <p>Bibloteka ne konviktin 6</p>
+          <div class="bibloteka-images">
+            <img
+              src="https://gazetainfokus.com/wp-content/uploads/2018/12/47390704_2809428155749534_3428896542445010944_n-768x576.jpg"
+            />
+            <img
+              src="https://gazetainfokus.com/wp-content/uploads/2018/12/47242402_2809428229082860_1895566915393290240_n-768x576.jpg"
+              alt=""
+            />
+          </div>
+
+          <p>Bibloteka ne konviktin 7</p>
+          <div class="bibloteka-images">
+            <img
+              src="https://gazetainfokus.com/wp-content/uploads/2018/12/47465537_2809428239082859_5692889244297592832_n-768x576.jpg"
+            />
+            <img
+              src="https://gazetainfokus.com/wp-content/uploads/2018/12/47446799_2809428172416199_6377873533724262400_n-768x576.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="Konviktet-section">
+          <h1>Konviktet</h1>
+
+          <aside class="konviktet-box">
+            <section class="section1">
+              <div>
+                <img
+                  class="konviktet-img"
+                  src="https://gazetainfokus.com/wp-content/uploads/2018/12/47140233_2809428272416189_5003358049088307200_n-768x576.jpg"
+                />
+              </div>
+              <div>
+                <img
+                  class="konviktet-img"
+                  src="https://gazetainfokus.com/wp-content/uploads/2018/12/47140233_2809428272416189_5003358049088307200_n-768x576.jpg"
+                />
+              </div>
+              <div>
+                <img
+                  class="konviktet-img"
+                  src="https://gazetainfokus.com/wp-content/uploads/2018/12/47140233_2809428272416189_5003358049088307200_n-768x576.jpg"
+                />
+              </div>
+            </section>
+            <section class="section2">
+              <div>
+                <img
+                  class="konviktet-img"
+                  src="https://gazetainfokus.com/wp-content/uploads/2018/12/47140233_2809428272416189_5003358049088307200_n-768x576.jpg"
+                />
+              </div>
+              <div>
+                <img
+                  class="konviktet-img"
+                  src="https://gazetainfokus.com/wp-content/uploads/2018/12/47140233_2809428272416189_5003358049088307200_n-768x576.jpg"
+                />
+              </div>
+            </section>
+          </aside>
+        </div>
+      </main>
     </div>
-    <div class="oborri">
-        <div class="slider1">
-        <h1>Oborri</h1>
-        <img class="grow" src="https://www.epokaere.com/wp-content/uploads/2020/08/konviktet.jpg">
-        <img class="grow" src="https://www.epokaere.com/wp-content/uploads/2020/08/konviktet.jpg">
-        <img class="grow" src="https://kallxo.com/wp-content/uploads/2018/04/Mbjellja-e-fidaneve-n%C3%AB-Qendr%C3%ABn-e-Student%C3%ABve-768x576.jpg">
-    </div>
 
-    </div>
-    <div id="Biblotekat"> 
-        <h1>Bibloteka</h1>
-        <p>Biblotekat qe munedeni te perdorni:</p>
-        <p>Bibloteka ne konviktin 5</p>
-        <img class="grow" src="https://qs.rks-gov.net/wp-content/uploads/2018/12/IMG_2971-1-400x300.jpg">
-        <img class="grow" src="https://qs.rks-gov.net/wp-content/uploads/2018/12/IMG_2965-400x300.jpg">
-        <p>Bibloteka ne konviktin 6</p>
-        <img class="grow" src="https://qs.rks-gov.net/wp-content/uploads/2018/12/IMG_2989-400x300.jpg">
-        <p>Bibloteka ne konviktin 7</p>
-        <img class="grow" src="https://qs.rks-gov.net/wp-content/uploads/2018/12/IMG_2984-1-400x300.jpg">
+    <script>
+      let firstSlide = 0;
+      const data = [
+        {
+          image:
+            "https://www.epokaere.com/wp-content/uploads/2020/08/konviktet.jpg",
+        },
+        {
+          image:
+            "https://kallxo.com/wp-content/uploads/2018/04/Mbjellja-e-fidaneve-n%C3%AB-Qendr%C3%ABn-e-Student%C3%ABve-768x576.jpg",
+        },
+        {
+          image:
+            "https://www.epokaere.com/wp-content/uploads/2020/08/konviktet.jpg",
+        },
+      ];
 
-    </div>
-    </div>
-    
-</div>
+      let image = document.getElementById("grow");
+      image.src = data[0].image;
 
+      function slide() {
+        let image = document.getElementById("grow");
+        image.src = data[firstSlide].image;
+      }
 
+      document.getElementById("slider-left").onclick = () => {
+        firstSlide !== 0 ? firstSlide-- : (firstSlide = data.length - 1);
 
-</body>
+        slide();
+      };
+
+      document.getElementById("slider-right").onclick = () => {
+        firstSlide < data.length - 1 ? firstSlide++ : (firstSlide = 0);
+
+        slide();
+      };
+    </script>
+  </body>
 </html>

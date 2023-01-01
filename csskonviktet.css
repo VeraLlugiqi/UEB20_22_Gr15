@@ -1,6 +1,6 @@
-:root{
-    --firered:rgb(175, 31, 31);
-    --bgcolor:rgb(240, 235, 235);
+:root {
+    --firered: rgb(175, 31, 31);
+    --bgcolor: rgb(240, 235, 235);
     --red-hover: #9c1515;
     --white: #fdfdfd;
     --bg: #e2cdcd;
@@ -8,100 +8,207 @@
     --header-height: 80px;
     --nav-width: 300px;
     --footer-height: 40px;
-    
-}
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-}
-/*.header-kon{
-    text-align: center;
-    /* float: left;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  /*Header*/
+  .main-header-text {
+    font-size: 150%;
+  }
+  .header-kon {
     width: 100%;
     padding: 20px 60px;
     height: var(--header-height);
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
-
-}*/
-body
-{
-    height: auto;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    background-color: var(--bgcolor);
-    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    place-items: start center;
+    gap: 1rem;
+  }
+  details {
+    z-index: 2;
+    background-color: #fdfdfd;
+  }
+  details > p {
+    border-radius: 0 0 10px 10px;
+    background-color: #ddd;
+    padding: 2px 6px;
     margin: 0;
-    padding: 0;
-   
-}
-.body-kon{
-    float:calc(100% - var(--nav-width));
-    align-items:center;
-}
+    box-shadow: 3px 3px 4px black;
+  }
+  #paragraph {
+    padding: 10px;
+  }
+  .header-title {
+    cursor: pointer;
+  }
+  .header-title:hover {
+    color: rgb(151, 52, 52);
+  }
+  
+  .bottom-part {
+    margin: 50px 70px;
+  }
 
-table{
-    border: 2px solid grey;
-}
 
-table td{
-    border:2px solid grey;
-    padding:25px 70px;
-}
+    /*fototja- sldier*/
+    .oborri {
+      width: 100%;
+      height: 550px;
+      position: relative;
+    }
+    #grow {
+      z-index: -1;
+      width: inherit;
+      height: inherit;
+      object-fit: cover;
+    }
+    .oborri-header {
+      position: absolute;
+      top: 30px;
+      left: 49.5%;
+    }
+    #slider-right {
+      font-size: 40px;
+      position: absolute;
+      top: 90%;
+      left: 55%;
+      cursor: pointer;
+    }
+    #slider-left {
+      font-size: 40px;
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      cursor: pointer;
+    }
 
 
-#info-konvikte{
+  /*Qmimet dhe informata*/
+  .templates {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 20px;
+  }
+  .title {
+    background-color: #d83333;
     width: 100%;
-
-    /*height: calc(100% - (var(--footer-height) + var(--header-height)));*/
-}
-
-aside {
+    height: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .items {
+    display: grid;
+    grid-template-rows: 50px 100px;
+    place-items: center;
+    border: 1px solid black;
+  }
+  
+  .content {
+    background-color: #dba9a9;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .bottom-title {
+    text-align: center;
+  }
+  
+  #info-konvikte {
+    width: 100%;
+    display: grid;
+  }
+  
+  aside {
     float: left;
     width: var(--nav-width);
     border-right: 1px solid var(--border-color);
     height: 100%;
-}
-.left-konviktet{
+  }
+  .left-konviktet {
     float: left;
     width: 100%;
     height: 100%;
     margin: 10;
     list-style-type: none;
     padding: 0;
-}
-.left-konv{
-    height: 100%;
-}
+  }
+ 
 
-
-.konviktet li{
-    width: 100%;
-    float: left;
-}
-
-.nav-kon{
-    float: left;
-    width: 100%;
-    padding: 20px 60px;
+  a {
     text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    color: var(--firered);
-    border-bottom: 1px solid var(--border-color);
-}
+    color: rgb(0, 0, 0);
+  }
+  a:hover {
+    color: black;
+  }
 
-/*rritja e fotove pas h*/
-.grow{
-    transition: .3s ease;
-}
-img{
-    width:200px;
-    height: 150px;
-}
-.grow:hover{
-    transform: scale(2);
-    -webkit-transform: scale(2);
-    -ms-transform: scale(2);
-}
+
+  /*Foto align Bibloteka*/
+  .bibloteka-images {
+    display: grid;
+    grid-auto-flow: column;
+  /* grid-template-columns: repeat(autofill minmax(200px, 1fr));*/
+    place-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
+  .bibloteka-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+
+
+  /*Konviktet 1-8*/
+  .Konviktet-section {
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    width: 100%;
+    place-content: center;
+  }
+  .konviktet-box {
+    display: grid;
+    width: 800px;
+    height: 500px;
+    gap: 10px;
+  }
+  
+  .section1 {
+    display: grid;
+    grid-auto-flow: column;
+    height: 50%;
+  }
+  .section2 {
+    display: grid;
+    grid-template-columns: 66% 34%;
+  
+    height: 50%;
+  }
+  .konviktet-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /*rritja e fotove pas h*/
+  /*.grow{
+      transition: .3s ease;
+  }
+  
+  
+  .grow:hover{
+      transform: scale(2);
+      -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+  }*/
+  
