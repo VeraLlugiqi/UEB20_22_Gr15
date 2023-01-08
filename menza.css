@@ -295,6 +295,7 @@ aside {
  .rregulla-par{
   font-size: 18px;
   padding:1%;
+  color:#81a1ed;
  }
  .li-lavandaria{
   padding:10px 0 ;
@@ -309,5 +310,62 @@ a:hover {
 } */
 
 
+/*orari*/
+.orari-txt{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 ;
+}
+#orari{
+  border: 1px solid black;
+  border:3px solid;
+  background-color: #EDEDED;
+  border-color:#EDEDED;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sherbimi{
+ font-size: 17px;
+ padding-left:5%;
+ }
+ .sherbimi-par{
+  font-size: 18px;
+  padding:1%;
+  color:#81a1ed;
+ }
+ .li-orari{
+  padding:10px 0 ;
+ }
 
-  
+ /*cmimi*/
+ .cmimi-txt{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 ;
+}
+#cmimi{
+  border: 1px solid black;
+  border:3px solid;
+  background-color: #EDEDED;
+  border-color:#EDEDED;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pagesa{
+ font-size: 17px;
+ padding-left:5%;
+ }
+ .cmimi-muaj{
+  font-size: 18px;
+  padding:1%;
+  color:#81a1ed;
+ }
+ .li-cmimi{
+  padding:10px 0 ;
+ }
+
+
+ /*menu*/
+ .menu-txt{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 ;
+ }
