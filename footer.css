@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
+footer{
+    margin-top:200px;
+    background-color:#3C3C3C;;
+    height:700px;
+    width:100%;
+
+        display: inline-block;
+    
+}
+.footer div {
+    
+        display: inline-block;
+    
+}
+
+ul li{
+    list-style:none;
+}
+
+
+h1{
+    font-family:sans-serif;
+    font-weight:normal;
+    font-size:20px;
+    letter-spacing:1%;
+    padding: 100px 0 50px;
+    color:#777;
+    text-align:center;
+
+
+
+}
+.social-media{
+
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-left:40%;
+    margin-right:20px;
+    
+    
+    
+    
+}
+
+.social-media a{
+    margin-right: 15px;
+    padding: 25px;
+    text-align: center;
+    display:inline;
+    margin-right:15px;
+    background: #80a8cf;
+    margin-right:10px;
+    border-radius:8px;
+    align-items: center;
+    text-decoration: none;
+    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.3),
+    -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+}
+.social-media a i{
+    font-size:35px;
+
+    color:#777;
+
+
+}
+.social-media a:hover{
+    box-shadow:6px 6px 10px -1px rbga(0,0,0,0.3),
+    -6px -6px 10px -1px rgba(255,255,255,0.7);
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    inset -4px -4px 6px -1px rgba(255,255,255,0.7);
+
+}
+
+.social-media a:hover{
+    background-color:#81a1ed;
+}
+.social-media h2{
+    font-family:sans-serif;
+    font-weight:normal;
+    font-size:15px;
+    letter-spacing: 6px;
+    padding-top:50px;
+    padding-left: 20px;
+    color:#777;
+}
+
+.Searches{
+    font-family: sans-serif;
+    padding-left: 50px;
+    padding-top: 50px;
+    list-style-type:circle;
+}
+
+ul li{
+    font-family: sans-serif;
+    
+    
+}
+ul li:hover{
+    color:#81a1ed;
+}
+.info{
+    display: inline;
+}
+
+
+footer{
+    width:100%;
+    margin: 0px;
+    margin-left:0;
+    position: relative;
+    background-color:rgb(40, 42, 42);
+    color:azure;
+}
+
+ul.searches{
+    list-style: none;
+    
+}
+ul.account{
+    list-style: none;
+}
+.SignIn{
+    margin-left:230px;
+}
+.Account{
+    margin-left:80px;
+    margin-top:5px;
+
+}
+.logo{
+    border-radius: 100%;
+    margin-top:50px;
+    margin-left: 20px;;
+    height: 150px;
+    width: 150px;
+}
+
+.map{
+    margin-top:100px;
+}
+ul.kontakti{
+
+    padding: 36px 0 36px 70px;
+}
+.listimage1{
+    width:5px;
+    height:5px;
+
+
+}
+ul.kontakti{
+    list-style-type:none;
+}
+li:hover{
+    color:orangered;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FototScroll{
+    margin:5px;
+    width:200px;
+    height:200px;
+}
