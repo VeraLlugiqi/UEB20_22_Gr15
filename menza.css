@@ -1,287 +1,313 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-}
-body{
-    background-image:url();
-    background-size: cover;
-    background-position: center;
-    font-family:sans-serif;
-}
-.menu-bar
-{
-    background: rgb(162, 10, 10);
-    text-align: center;
-}
-.menu-bar ul
-{
-    display:inline-flex ;
-    list-style:none;
-    color:#fff;
-}
-.menu-bar ul li
-{
-    width:120px;
-    margin:15px;
-    padding:15px;
-}
-.menu-bar ul li a
-{
-    text-decoration: none;
-    color:#fff;
-}
-.active, .menu-bar ul li:hover
-{
-    background:gray;
-    border-radius: 3px;
-}
 
-.content form{
-    display:flex;
-    align-items:center;
-    background: rgb(167, 154, 154);
-    border-radius:5px;
-    padding:10px;
-    margin-top:30px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
-
-.content form input{
-    border:0;
-    outline:0;
-    width:100%;
-    font-size:20px;
-    padding-left:15px;
-
-}
-.content form.btn{
-    font-size:20px;
-    padding:10px 30px;
-}
-.center
-{
-    position:absolute;
-    top:20%;
-    left:40%;
-}
-.foto
-{
-    text-align:right;
-  border: 1px solid #ccc;
-  width:500px;
-  height:400px;
-}
-.content{
-    margin-top:14%;
-    color:black;
-    max-width:620px;
-}
-.content h1{
-    font-size:40px;
-    font-weight:300;
-    line-height:45px;
-    margin-bottom:25;
-}
-.content form{
-    display:flex;
-    align-items:center;
-    background: rgb(167, 154, 154);
-    border-radius:5px;
-    padding:10px;
-    margin-top:30px;
-}
-*{
-    margin:0;
-    padding:0;
-}
-.horizontal_slider{
-    display:block;
-    width:100%;
-    overflow-x:scroll;
-    margin-left: 50px;
-}
-.slider_container{
-    display:block;
-    margin-right: 500px;
-    white-space: nowrap;
-}
-.item{
-    display: inline-block;
-    margin-right:10px;
-}
-.item img{
-    width:400px;
-}
-.table
-{
-    margin-left: 500px;
-    margin-right:500px;
-}
+/*Navbari*/
 .Pjesa1{
+  width: 100%;
+  margin:0;
+  background-color: #3C3C3C;
+  height: 100px;
+  color:white;
+}
+.Pjesa1 a{
+  color:white
+}
+.Pjesa1 a:hover{
+  color:#c8c7c7
+}
+.st{
+    margin-top:80px;
+    /* position: absolute; */
+    height:50px;
+
+    padding-top:25px;
+    font-size:30px;
+    cursor:pointer;
+}
+
+.Pjesa1 a{
+    margin-left:30px;
+    margin-top:30px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+}
+header{
     width: 100%;
-    margin:0;
-    background-color: #3C3C3C;
-    height: 100px;
-    color:white;
-  }
-  .st{
-      margin-top:80px;
-      /* position: absolute; */
-      height:50px;
-  
-      padding-top:15px;
-      font-size:30px;
-      cursor:pointer;
-  }
-  
-  .Pjesa1 a{
-      margin-left:30px;
-      margin-top:30px;
-      font-family: 'Lobster', cursive;
-      font-family: 'Pacifico', cursive;
-  }
-  header{
-      width: 100%;
-  
-  }
-  .Fotoja1{
-      border-radius: 100%;
-      height:70px;
-      width: 70px;
-      margin:20px;
-  
-  }
-  
-  .Pjesa2{
-    width:100%;
-    height: 50px;
-    background-color: #CA090C;
-    margin-top:0px;
-  }
-  
-  .Click{
-    list-style-type: none;
-    float:right;
-  
-  }
-  .Click li{
-    float: left;
-    margin-right:25px;
-  
-  }
-  .Click a{
-    text-decoration: none;
-    font-size:20px;
-    color:white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-  }
-  
-  /*navbari 2*/
-  .header-menza {
-    width: 100%;
-    padding: 20px 60px;
-    height: 50px;
-    box-shadow: 0 2px 7px rgb(146, 9, 9);
-    display: grid;
-    grid-auto-flow: column;
-    place-items: start center;
-    gap: 1rem;
-    background-color: #CA090C;
-  }
-  details {
-    z-index: 2;
-    background-color: #CA090C;
-  }
-  details > p {
-    border-radius: 0 0 10px 10px;
-    background-color: rgb(239, 235, 235);
-    padding: 2px 6px;
-    margin: 0;
-    box-shadow: 3px 3px 4px black;
-  }
-  #paragraph {
-    padding: 8px;
-  }
-  
-  .header-title {
-    cursor: pointer;
-    font-size: 20px;
-    color:#ddd;
-  }
-  .header-title a{
-    text-decoration: none;
-    background-color: rgb(158, 18, 18);
-  }
-  .header-title:hover {
-    color: rgb(234, 165, 165);
-  }
-  
-  .bottom-part {
-    margin: 50px 70px;
-  }
-  /*Informatat*/
-.templates {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 1rem;
-    margin-top: 20px;
-  }
-  .items11 span {
-    width: 100%;
-    height: 100%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
-  }
-  .items11 p {
-    font-size: 15px;
-  }
-  .items11 {
-    grid-template-rows: 50px 150px;
-    place-items: center;
-    font-size:14px;
+
+}
+.Pjesa1 img{
+  margin:0;
+}
+.Fotoja1{
     
+    height:100px;
+    width: 100px;
+
+}
+
+/* .Pjesa2{
+  width:100%;
+  height: 50px;
+  background-color: #81a1ed;
+  margin-top:0px;
+}
+
+.Click{
+  list-style-type: none;
+  float:right;
+
+}
+.Click li{
+  float: left;
+  margin-right:25px;
+
+}
+.Click a{
+  text-decoration: none;
+  font-size:20px;
+  color:white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+} */
+
+
+ /* header 1 responsive */
+.header {
+  overflow: hidden;
+  background-color: #81a1ed;
+  
+
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.header a:hover {
+  color: #c8c7c7;
+}
+
+/* .header a.active {
+  background-color: dodgerblue;
+  color: white;
+} */
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 450px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
   }
   
-  
-  .content {
+  .header-right {
+    float: none;
+  }
+}
+
+
+
+
+
+/*Navbari 2*/
+.header-menza {
+  width: 100%;
+  padding: 20px 60px;
+  height: 50px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-auto-flow: column;
+  place-items: start center;
+  gap: 1rem;
+  background-color: #81a1ed;
+   
+}
+
+.header-menza a{
+  color:white;
+
+}
+.header-menza a:hover {
+  color: #c8c7c7;
+}
+details {
+  z-index: 2;
+  background-color: #81a1ed;
+}
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color: white;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black;
+}
+#paragraph {
+  padding: 8px;
+}
+
+.header-title {
+  cursor: pointer;
+  font-size: 20px;
+  color:white;
+}
+.header-title a{
+  text-decoration: none;
+}
+/* .header-title:hover {
+  color: rgb(234, 165, 165);
+} */
+
+.bottom-part {
+  margin: 50px 70px;
+}
+
+
+  /*fototja- sldier*/
+  .oborri {
     width: 100%;
-    height: 100%;
-    display: grid;
-    place-items: center;
+    height: 550px;
+    position: relative;
   }
-  .bottom-title {
-    text-align: center;
+  #grow {
+    z-index: -1;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
   }
-  
-  #info-konvikte {
-    width: 100%;
-    display: grid;
-  }
-  
-  aside {
-    float: left;
-    width: var(--nav-width);
-    border-right: 1px solid var(--border-color);
-    height: 100%;
-  }
-  .left-konviktet {
-    float: left;
-    width: 100%;
-    height: 100%;
-    margin: 10;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  
-  
-  /* a{
-    text-decoration: none;
-    color:black;
-  }
-  a:hover {
-    color: black;
+  /* .oborri-header {
+    position: absolute;
+    top: 30px;
+    left: 49.5%;
+    background-color: rgba(255,255,255,0.4)
   } */
+  #slider-right {
+    font-size: 45px;
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    cursor: pointer;
+    background-color: rgba(198, 197, 197, 0.5);
+  }
+  #slider-left {
+    font-size: 45px;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    cursor: pointer;
+    background-color: rgba(198, 197, 197, 0.5);
+  }
+
+
+  /*Rreth menzes*/
+.templates {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.items11 span {
+  width: 100%;
+  height: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#81a1ed;
+  font-size:20px;
+  display: grid;
+  place-items: center;
+}
+.items11 p {
+  font-size: 20px;
+}
+.items11 {
+  display: grid;
+  grid-template-rows: 50px 150px;
+  place-items: center;
+  border: 1px solid black;
+  border:3px solid;
+  background-color: #EDEDED;
+  border-color:#EDEDED;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.bottom-title {
+  text-align: center;
+}
+
+#info-menza {
+  width: 100%;
+  display: grid;
+}
+
+aside {
+  float: left;
+  width: var(--nav-width);
+  border-right: 1px solid var(--border-color);
+  height: 100%;
+}
+.left-menza {
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin: 10;
+  list-style-type: none;
+  padding: 0;
+}
   
+  /*lavandaria*/
+.lavandaria-txt{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 ;
+}
+#lavandaria{
+  border: 1px solid black;
+  border:3px solid;
+  background-color: #EDEDED;
+  border-color:#EDEDED;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.rregulla{
+ font-size: 17px;
+ padding-left:5%;
+ }
+ .rregulla-par{
+  font-size: 18px;
+  padding:1%;
+ }
+ .li-lavandaria{
+  padding:10px 0 ;
+ }
+
+/* a{
+  text-decoration: none;
+  color:black;
+}
+a:hover {
+  color: black;
+} */
+
+
+
   
