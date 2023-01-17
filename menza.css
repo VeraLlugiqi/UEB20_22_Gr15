@@ -143,7 +143,7 @@ header{
 
 }
 .header-menza a:hover {
-  color: #c8c7c7;
+  color: black;
 }
 details {
   z-index: 2;
@@ -369,3 +369,76 @@ a:hover {
   text-align: center;
   padding: 10px 0 ;
  }
+ .ushqimi{
+  font-size: 17px;
+  padding-left:5%;
+  
+ }
+ .menu-ditore{
+  font-size: 18px;
+  padding:1%;
+  color:#81a1ed;
+ }
+ .menu{
+  font-size: 17px;
+  padding-left:5%;
+ }
+ #menu{
+  border: 1px solid black;
+  border:3px solid;
+  background-color: #EDEDED;
+  border-color:#EDEDED;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ menu-foto {
+  display: grid;
+  grid-auto-flow: column;
+  place-items: right;
+  margin-left: 10%;
+  width:50%;
+  /* grid-template-columns: repeat(autofill minmax(200px, 1fr));*/  
+  padding: 5px;
+  gap: 3%;
+  
+}
+.menu-ditore{
+  font-size: 18px;
+  padding:1%;
+  color:#81a1ed;
+}
+.li-menu{
+  padding:10px 0 ;
+}
+
+
+
+
+ /*me shume*/
+ .meshume-text{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 ;
+ }
+ #meshume{
+  border: 1px solid black;
+  border:3px solid;
+  background-color: #EDEDED;
+  border-color:#EDEDED;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .meshume-info{
+  font-size: 18px;
+  padding:1%;
+  color:#81a1ed;
+ }
+ .li-meshume{
+  padding:10px 0 ;
+ }
+ .infot{
+  font-size: 17px;
+  padding-left:5%;
+ }
+ .source src{
+  border-radius: 100px;
+ }
+ 
