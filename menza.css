@@ -296,6 +296,7 @@ aside {
   font-size: 18px;
   padding:1%;
   color:#81a1ed;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
  }
  .li-lavandaria{
   padding:10px 0 ;
@@ -331,6 +332,7 @@ a:hover {
   font-size: 18px;
   padding:1%;
   color:#81a1ed;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
  }
  .li-orari{
   padding:10px 0 ;
@@ -357,6 +359,7 @@ a:hover {
   font-size: 18px;
   padding:1%;
   color:#81a1ed;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
  }
  .li-cmimi{
   padding:10px 0 ;
@@ -378,6 +381,7 @@ a:hover {
   font-size: 18px;
   padding:1%;
   color:#81a1ed;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
  }
  .menu{
   font-size: 17px;
@@ -430,15 +434,23 @@ a:hover {
   font-size: 18px;
   padding:1%;
   color:#81a1ed;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
+  
+  
  }
  .li-meshume{
   padding:10px 0 ;
  }
  .infot{
   font-size: 17px;
-  padding-left:5%;
+  
  }
  .source src{
   border-radius: 100px;
+ }
+ .h5{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 ;
  }
  
