@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
-
+    
   <body style="background-color:rgb(254, 247, 247)">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" ></script>
@@ -311,6 +311,51 @@
                   </div>
                 </div>
               </div>
+           
+           
+            <div id="stars">
+            
+            <div class="star_rating">
+              <p>Si e vlersoni eksperiencen tuaj?</p>
+              <button class="star">&#9734;</button>
+              <button class="star">&#9734;</button>
+              <button class="star">&#9734;</button>
+              <button class="star">&#9734;</button>
+               <button class="star">&#9734;</button>
+               <p class="current_rating"></p>
+            </div>
+
+               
+          
+          <script>
+          const allStars=document.querySelectorAll('.star');
+          let current_rating=document.querySelector('.current_rating');
+
+          allStars.forEach((star,i) =>{
+            star.onclick=function(){
+              let current_star_level=i+1;
+              current_rating.innerText='Faleminderit per vlersimin';
+
+              allStars.forEach((star,j)=>{
+                if(current_star_level>=j+1){
+                  star.innerHTML='&#9733';
+                }else{
+                  star.innerHTML='&#9734';
+                }
+
+              })
+              
+             
+              }
+            })
+           
+        </script>
+        </div>
+      </div>
+
+
+
+            </div>
            </div>
 
             </div>
