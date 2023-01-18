@@ -189,13 +189,8 @@ details > p {
     height: inherit;
     object-fit: cover;
   }
-  /* .oborri-header {
-    position: absolute;
-    top: 30px;
-    left: 49.5%;
-    background-color: rgba(255,255,255,0.4)
-  } */
-  #slider-right {
+  
+ /* #slider-right {
     font-size: 45px;
     position: absolute;
     top: 90%;
@@ -211,6 +206,7 @@ details > p {
     cursor: pointer;
     background-color: rgba(198, 197, 197, 0.5);
   }
+  */
 
 
   /*Rreth menzes*/
@@ -440,6 +436,7 @@ a:hover {
  }
  .li-meshume{
   padding:10px 0 ;
+  text-align: center;
  }
  .infot{
   font-size: 17px;
@@ -469,6 +466,7 @@ stars{
 .star_rating{
   user-select: none;
   animation: scale-up 1s ease;
+  
 
 }
 
