@@ -448,9 +448,47 @@ a:hover {
  .source src{
   border-radius: 100px;
  }
- .h5{
-  font-size: 30px;
-  text-align: center;
-  padding: 10px 0 ;
- }
  
+
+ 
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+stars{
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items:center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.star_rating{
+  user-select: none;
+  animation: scale-up 1s ease;
+
+}
+
+.star_rating{
+  user-select:none;
+  background-color:#dfdddd;
+  padding:1.4rem 2.5rem;
+  margin:2rem;
+  border-radius: 4rem;
+  text-align:center;
+  animation: scale-up 1s ease;
+}
+
+
+ .star{
+  font-size: 3rem;
+  color:#ff9800;
+  background-color:unset;
+  border:none;
+ }
+ .star:hover{
+  cursor:pointer;
+ }
