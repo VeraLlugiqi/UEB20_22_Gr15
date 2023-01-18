@@ -225,9 +225,14 @@ details > p {
   font-size:20px;
   display: grid;
   place-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .items11 p {
   font-size: 20px;
+}
+.items11:hover{
+  transform:translateY(-10px);
+  transition:all ease 0.3s;
 }
 .items11 {
   display: grid;
@@ -238,6 +243,7 @@ details > p {
   background-color: #EDEDED;
   border-color:#EDEDED;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 }
 
 
@@ -249,6 +255,7 @@ details > p {
 }
 .bottom-title {
   text-align: center;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
 }
 
 #info-menza {
@@ -276,6 +283,7 @@ aside {
   font-size: 30px;
   text-align: center;
   padding: 10px 0 ;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
 }
 #lavandaria{
   border: 1px solid black;
@@ -287,12 +295,14 @@ aside {
 .rregulla{
  font-size: 17px;
  padding-left:5%;
+ 
  }
  .rregulla-par{
   font-size: 18px;
   padding:1%;
   color:#81a1ed;
   text-shadow: -1px 8px 8px rgb(101, 94, 94);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
  .li-lavandaria{
   padding:10px 0 ;
@@ -312,6 +322,7 @@ a:hover {
   font-size: 30px;
   text-align: center;
   padding: 10px 0 ;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
 }
 #orari{
   border: 1px solid black;
@@ -329,6 +340,7 @@ a:hover {
   padding:1%;
   color:#81a1ed;
   text-shadow: -1px 8px 8px rgb(101, 94, 94);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
  .li-orari{
   padding:10px 0 ;
@@ -339,6 +351,7 @@ a:hover {
   font-size: 30px;
   text-align: center;
   padding: 10px 0 ;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
 }
 #cmimi{
   border: 1px solid black;
@@ -356,6 +369,7 @@ a:hover {
   padding:1%;
   color:#81a1ed;
   text-shadow: -1px 8px 8px rgb(101, 94, 94);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
  .li-cmimi{
   padding:10px 0 ;
@@ -367,6 +381,7 @@ a:hover {
   font-size: 30px;
   text-align: center;
   padding: 10px 0 ;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
  }
  .ushqimi{
   font-size: 17px;
@@ -390,7 +405,7 @@ a:hover {
   border-color:#EDEDED;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
- menu-foto {
+ .menu-foto {
   display: grid;
   grid-auto-flow: column;
   place-items: right;
@@ -405,6 +420,7 @@ a:hover {
   font-size: 18px;
   padding:1%;
   color:#81a1ed;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .li-menu{
   padding:10px 0 ;
@@ -418,6 +434,7 @@ a:hover {
   font-size: 30px;
   text-align: center;
   padding: 10px 0 ;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
  }
  #meshume{
   border: 1px solid black;
@@ -431,7 +448,7 @@ a:hover {
   padding:1%;
   color:#81a1ed;
   text-shadow: -1px 8px 8px rgb(101, 94, 94);
-  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   
  }
  .li-meshume{
