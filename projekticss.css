@@ -207,17 +207,17 @@ color: black;
 margin-left: 7%;
     }
 
-    canvas {
+      
+      #confetti {
         position: absolute;
         bottom: 0;
         right: 0;
         left: 0;
-        top: 78%;
+        top: 68%;
         width: 100%;
         height: 22%;
-        background-color: rgb(182, 176, 176);
-        background-image: linear-gradient(to top, rgba(230, 242, 246, 0.7) 0%, rgba(192, 186, 186, 0.5) 5%, rgba(226, 234, 237, 0.978) 70%);
-    }
+      }
+      
 
 
 
