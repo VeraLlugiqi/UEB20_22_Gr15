@@ -2,6 +2,14 @@
 
 $.getScript("https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" 
  );
+
+ // editimi fotove
+
+ $(".left, .right").attr("border", "3px solid black")
+
+
+
+
 // funksioni per smooth scroll te te gjitha linqet
 $(document).ready(function(){
 
@@ -24,7 +32,9 @@ $(document).ready(function(){
       } 
     });
   });
-// Funksioni per animimin Paragrafit hyres
+  
+
+// Funksioni per animimin e paragrafit hyres
 function
 animate_string(id)
 {
@@ -42,7 +52,7 @@ setInterval(
 
 
 
-// funksioni per bore ne pjesen e Dimiri
+// funksioni per bore ne background
 
 let canvas, ctx, w, h, snows, snows2;
 
@@ -94,7 +104,7 @@ function getRandomInt(min, max) {
 class Snow {
 	constructor() {
 		this.reset();
-		this.rgb = "52, 235, 236";
+		this.rgb = "52, 235, 236"; // change snow color
 	}
 	reset() {
 		this.x = getRandomInt(0, w);
@@ -106,7 +116,7 @@ class Snow {
 		this.ac = getRandomInt(3, 5) / 100;
 	}
 	draw() {
-		ctx.beginPath();
+		ctx.beginPath(); // since canvas works only with rectangles and paths
 		ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
 		ctx.fillStyle = `rgba(${this.rgb}, ${this.a})`;
 		ctx.strokeStyle = `rgba(${this.rgb}, ${this.a})`;
@@ -160,46 +170,4 @@ class Snow2 {
 
 window.addEventListener("DOMContentLoaded", init);
 window.addEventListener("resize", resizeReset);
-
-
-
-// Funksioni per shfaqje ne scroll
-const observer = new IntersectionObserver((entries) => {
-entries.forEach((entry) => {
-console.log(entry)
-if(entry.isIntersecting ){
-  entry.target.classList.add('.show');
-} else{
-  entry.target.classList.remove('.show');
-}
-});
-}); 
-const hiddenElements = document.querySelectorAll('.StinetTable');
-hiddenElements.forEach((el) => observer.observe(el));
-
-
-
-
-// funksioni per slide
-  $(document).ready(function(){
-    $('.next').on('click', function(){
-      var currentImg = $('.active');
-      var nextImg = currentImg.next();
-  
-      if(nextImg.length){
-        currentImg.removeClass('active').css('z-index', -10);
-        nextImg.addClass('active').css('z-index', 10);
-      }
-    });
-  
-    $('.prev').on('click', function(){
-      var currentImg = $('.active');
-      var prevImg = currentImg.prev();
-  
-      if(prevImg.length){
-        currentImg.removeClass('active').css('z-index', -10);
-        prevImg.addClass('active').css('z-index', 10);
-      }
-    });
-  });
 
