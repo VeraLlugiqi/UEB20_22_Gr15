@@ -2,104 +2,88 @@
 <html>
     <head>
         <meta charset="UTF-8">
-<link rel="stylesheet" href="kryesore.css">
+<link rel="stylesheet" href="footer.css">
 <link rel="stylesheet" src="https://fontawesome.com/icons">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
 integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
 crossorigin="anonymous"/>
     </head>
     <body>
-
-
-        <p>Opioid overdose in children is often
-             characterized by a delayed onset of toxicity,
-              unexpectedly severe poisoning, and prolonged toxic effects.24-26 
-              These seemingly paradoxical effects result from ontogeny-related
-               pharmacokinetics: children have rates of drug absorption, 
-               distribution into the central nervous system, and metabolism that
-                differ from those in adults.68 Children 3 years of age or younger
-                 who have been exposed to any opioid analgesic other than 
-                 immediate-release opioid formulations (e.g., methadone, 
-                 fentanyl patches, and extended-release formulations) should
-                  be admitted for a 24-hour observation period, even if ingestion 
-                  of these agents cannot be confirmed.28,29 Similarly, 
-            all toddlers exposed to buprenorphine formulations, including</p>
-
-            <footer class="footer">
+        <footer class="footer">
              
 
 
-                <div class="Logo">
-                    <img src="logo.jfif" class="logo">
-                </div>
-        
-                <div class="Searches">    
-               
-                    <ul class="searches">
-                     <p><b>Top Searches</b></p>
-                     <li>Konviktet</li>
-                     <li>Menza</li>
-                     <li>Pagesat</li>
-                     <li>Dhomat</li>
-                     <li>Bibloteka</li>
-                     <li>Administrata</li>
-             
-                    </ul>
-             
-                    
-               </div>
-        
-                <div class="Kontakti">
-                    <ul class="kontakti">
-                        <p><b>Kontakti</b></p><br>
-
-                        <li  > qendra.studenteve@gmail.com</li>
-                        <li>049-152-445</li>
-                    </ul>
-                   </div>
-               
-               
-              
-        
-               <div class="Account">
-                <ul class="account">
-                    <p><b>My Account</b></p><br>
-                
-                <li>Sign in/Register</li>
-                <li>Log in</li>
-                <li>Account</li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <div class="Logo">
+                <img src="viiiiiiiola.svg" class="logo">
+            </div>
+    
+            <div class="Searches">    
+           
+                <ul class="searches">
+                 <p style="color:#81a1ed"><b>Top Searches</b></p><br>
+                 <li>Konviktet</li>
+                 <li>Menza</li>
+                 <li>Pagesat</li>
+                 <li>Dhomat</li>
+                 <li>Bibloteka</li>
+                 <li>Administrata</li>
+         
                 </ul>
-        
-        
+         
+                
+           </div>
+    
+            <div class="Kontakti">
+                <ul class="kontakti">
+                    <p style="color:#81a1ed"><b>Kontakti</b></p><br>
+
+                    <li  > qendra.studenteve@gmail.com</li>
+                    <li>049-152-445</li>
+                </ul>
                </div>
-        
-               <div class="SignIn">
-                <p><b>Sign In</b></p><br>
-                <input type="email" placeholder="Email">
-                <br><br>
-                <input type="password" placeholder="Password">
-                <br><br><button style="color:black">Log in</button>
-               </div>
-    <h1>Follow us on social media</h1>
+           
+           
+          
+    
+           <div class="Account">
+            <ul class="account">
+                <p style="color:#81a1ed"><b>My Account</b></p><br>
+            
+            <li>Sign in/Register</li>
+            <li>Log in</li>
+            <li>Account</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            </ul>
+    
+    
+           </div>
+    
+           <div class="SignIn">
+            <p style="color:#81a1ed"><b>Sign In</b></p><br>
+            <input type="email" placeholder="Email">
+            <br><br>
+            <input type="password" placeholder="Password">
+            <br><br><button style="color:black">Log in</button>
+           </div>
+<h1 style="color:#81a1ed">Follow us on social media</h1>
 
 
 
 <div class="social-media">
-    <a href="https://www.facebook.com/profile.php?id=100064831564701"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-whatsapp"></i></a>
+<a href="https://www.facebook.com/profile.php?id=100064831564701"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-whatsapp"></i></a>
 </div>
 
 
 
 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.390302314058!2d21.162903165281378!3d42.653083779168234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549f88112bf999%3A0xf48ca37e9c5921bd!2sQendra%20Studentore!5e0!3m2!1sen!2s!4v1671782592643!5m2!1sen!2s" width="100%" height="250" style="border:0;"
-        allowfullscreen="" 
-        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    allowfullscreen="" 
+    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </footer>
-    </body>
+</body>
 </html>
