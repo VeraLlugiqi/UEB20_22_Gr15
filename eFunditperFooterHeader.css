@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Lobster&family=Pacifico&family=Seymour+One&display=swap');
+
+.navbar-brand{
+    font-size:20px;
+    margin-left:10px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+.Background{
+    margin-top:0px;
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(fotot/backgroundKryesore.jpg);
+  width:100%;
+height: 520px;
+}
+
+.Pjesa1{
+    width: 100%;
+    margin:0;
+    background-color:#3C3C3C;
+    height: 100px;
+    color:white;
+
+}
+.features{
+    margin-top:70px;
+}
+.Fotoja1{
+    border-radius: 100%;
+    height:70px;
+    width: 70px;
+ margin-left:30px;
+}
+
+.fototslide{
+    margin-top:0px;
+}
+.slider{
+
+    width:80%;
+    height:50%;
+    border-radius:10px;
+    overflow: hidden;
+    margin-top:0px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 40px;
+ 
+ position: relative;
+ margin-left: 12%;
+}
+.slides{
+    margin-top:10px;
+    width:500%;
+    height:500px;
+    display: flex;
+
+}
+.slides input{
+    display: none;
+
+}
+.slide{
+    width:20%;
+    transition: 2s;
+}
+
+.slide img{
+    width:100%;
+    height:100%;
+
+}
+
+/*css for manual slide*/
+
+
+.navigation-manual{
+position: absolute;
+width:800px;
+margin-top:-40px;
+display:flex;
+justify-content: center;
+
+}
+.manual-btn{
+    margin-left:20px;
+    padding:5px;
+    border-radius:10px;
+    cursor: pointer;
+    transition: 1s;
+    margin-right:20px;
+}
+
+.manual-btn :not(:last-child){
+    margin-right:100px;
+
+}
+
+#radio1:checked ~ .first{
+    margin-left:0;
+
+}
+#radio2:checked ~ .first{
+    margin-left:-20%;
+    
+}
+#radio3:checked ~ .first{
+    margin-left:-40%;
+    
+}
+#radio4:checked ~ .first{
+    margin-left:-60%;
+    
+}
+#radio5:checked ~ .first{
+    margin-left:-80%;
+    
+}
+
+.manual-btn:hover{
+    background-color: #81a1ed;
+}
+
+
+
+/*css for automatic navigation*/
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width:800px;
+    justify-content: center;
+    margin-top:460px;
+}
+.navigation-auto div{
+    border: 2px solid #81a1ed;
+    padding:5px ;
+    border-radius:10px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right:40px;
+
+}
+
+
+
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #81a1ed;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #81a1ed;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #81a1ed;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #81a1ed;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: #81a1ed;
+}
+
+
+.lajmet{
+    border:2px ;
+    
+    background-color: #dcd6d6;
+ margin-left:70px;
+ margin-right:10px;
+    margin-top:150px;
+    height:400px;
+    width:410px;
+ align-items: center;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ text-decoration: none;
+}
+.lajmet a{
+    text-decoration: none;
+    color:rgb(21, 4, 4);
+
+}
+
+
+
+.PjesaNalt{
+    width:100%;
+    height:60px;
+    background-color: grey;
+}
+
+
+
+footer{
+    margin-top:0px;
+    background-color:#3C3C3C;
+    height:700px;
+    width:100%;
+
+        display: inline-block;
+    
+}
+.footer div {
+    
+        display: inline-block;
+    
+}
+
+ul li{
+    list-style:none;
+}
+
+
+h1{
+    font-family:sans-serif;
+    font-weight:normal;
+    font-size:20px;
+    letter-spacing:1%;
+    padding: 100px 0 50px;
+    color:#777;
+    text-align:center;
+
+
+
+}
+.social-media{
+
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-left:40%;
+    margin-right:20px;
+    border-radius: 100%;
+    
+    
+    
+}
+
+.social-media a{
+    
+    margin-right: 15px;
+    padding: 25px;
+    text-align: center;
+    display:inline;
+    margin-right:15px;
+    margin-right:10px;
+    border-radius:8px;
+    align-items: center;
+    text-decoration: none;
+
+}
+.social-media a i{
+    font-size:35px;
+
+    color:#777;
+    
+
+
+}
+
+
+
+.social-media h2{
+    font-family:sans-serif;
+    font-weight:normal;
+    font-size:15px;
+    letter-spacing: 6px;
+    padding-top:50px;
+    padding-left: 20px;
+    color:#777;
+}
+
+.Searches{
+    font-family: sans-serif;
+    padding-left: 50px;
+    padding-top: 50px;
+    list-style-type:circle;
+}
+
+ul li{
+    font-family: sans-serif;
+    
+    
+}
+ul li:hover{
+    color:black;
+}
+.info{
+    display: inline;
+}
+.butonifooter{
+    background-color: grey;;
+}
+.socialmedia{
+    background-color: grey;;
+}
+.footer div{
+    display: inline-block;
+}
+
+footer{
+    width:100%;
+    margin: 0px;
+    margin-left:0;
+    margin-top:30px;
+    background-color:#777;
+    color:azure;
+    position: relative;
+    display: inline-block;
+}
+
+ul.searches{
+    list-style: none;
+    
+}
+ul.account{
+    list-style: none;
+}
+.SignIn{
+    margin-left:400px;
+}
+.Account{
+    margin-left:200px;
+    margin-top:5px;
+
+}
+
+
+ul.kontakti{
+
+    padding: 36px 0 36px 70px;
+}
+.listimage1{
+    width:5px;
+    height:5px;
+
+
+}
+ul.kontakti{
+    list-style-type:none;
+}
+li:hover{
+    color:orangered;
+}
+.Map{
+    display: block;
+    width: 100%;
+
+}
+
+.footer div{
+    display:inline-block;
+}
+
+
+
+
+
+
+.Pjesa1{
+    width: 100%;
+    margin:0;
+    background-color: #3C3C3C;
+    height: 100px;
+    color:white;
+}
+
+.st{
+    margin-top:80px;
+    position: absolute;
+    height:50px;
+    width:300px;
+    padding-top:15px;
+   text-decoration: none;
+    font-size:30px;
+    color:white;
+}
+.st a {
+    padding-top:50px;
+    text-decoration: none;
+}
+.Pjesa1 a{
+    margin-left:30px;
+    margin-top:30px;
+    font-size:20px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Seymour One', sans-serif;
+}
+.qendra a{
+    font-size:20px;
+}
+header{
+    width: 100%;
+
+}
+.Fotoja1{
+    border-radius: 100%;
+    height:70px;
+    width: 70px;
+    margin:20px;
+
+}
