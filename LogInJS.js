@@ -6,6 +6,7 @@ const password = document.getElementById('password');
 form.addEventListener('submit', e => {
     e.preventDefault();
     validoInputet();
+    nderro();
 });
 
 const vendosError = (element, message) => {
@@ -47,7 +48,8 @@ const validoInputet = () => {
     } else {
         vendosSukses(password);
     }
-
-
+   
 };
+
+
 

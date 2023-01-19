@@ -1,5 +1,5 @@
 body{
-    background-image: url('/foto/background.jpg');
+    background-color: rgb(178, 178, 206);
     background-repeat: no-repeat;
     filter: blur();
     font-family:Raleway;
