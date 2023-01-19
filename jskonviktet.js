@@ -2,11 +2,11 @@ let firstSlide = 0;
 const data = [
   {
     image:
-      "qendra.jpg",
+      "/foto/qendra.jpg",
   },
   {
     image:
-      "fusha2.jpg",
+      "/foto/fusha2.jpg",
   },
   {
     image:
@@ -14,7 +14,7 @@ const data = [
   },
   {
     image:
-      "konv4.jpg",
+      "/foto/konv4.jpg",
   },
   
 ];
