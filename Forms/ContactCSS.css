@@ -1,5 +1,5 @@
 body{
-    background-image: url('C:\Users\Admin\Documents\GitHub\UEB20_22_Gr16\foto\background.jpg');
+    background-image: url('/foto/background.jpg');
     background-repeat: no-repeat;
     filter: blur();
     font-family:Raleway;
