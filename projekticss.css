@@ -1,31 +1,347 @@
-#body{
-background-color: rgb(230, 230, 218);
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Seymour+One&display=swap');
 
-}
-.left{
-    width: 300px;
-    height: 230px;
-    float: left;
-    
-
-}
-
-.right{
-    width: 300px;
-    height: 230px;
-    float: left ;
-    
-
-}
-#aside1{
-    float:right; 
-    background-color: rgb(107, 5, 5);
-}
-h1{
+.Pjesa1{
     width: 100%;
-    background-color: rgb(107, 5, 5);
-    text-align: center;
+    margin:0;
+    background-color: #3C3C3C;
+    height: 100px;
+
 }
-#head{
-    text-align: center;
+header{
+    width: 100%;
+
 }
+.Fotoja1{
+    border-radius: 100%;
+    height:70px;
+    width: 70px;
+    margin:20px;
+
+}
+.Pjesa2{
+    width:100%;
+    height: 50px;
+    background-color: #81a1ed;
+    margin-top:0px;
+}
+div{
+    display: block;
+}
+.Click{
+    list-style-type: none;
+    float:right;
+
+}
+.Click li{
+    float: left;
+    margin-right:25px;
+ 
+}
+.Click a{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.fotokryesore{
+position:absolute;
+    height:500px;
+    width:1000px;
+    margin-top:90px;
+    margin-left:250px;
+    filter: blur(6px);
+}
+.box2{
+    margin-top:250px;
+    margin-left:500px;
+    border-bottom:4px solid black ;
+    border-top:4px solid black ;
+    position: absolute;
+    margin-right:500px;
+    padding:10px;
+    
+}
+.box2 a {
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size:45px;
+    color:#81a1ed;
+    text-decoration: none;
+
+}
+.buttoni{
+    background: none;
+    color:black;
+    margin-left:160px;
+
+}
+.buttoni a{
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:20px;
+}
+
+#body{
+    background-color: rgb(230, 230, 218);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+    tr:not(:first-child){
+        opacity: 0;
+        animation-name: fadeIn;
+        animation-duration: 4.5s ;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes fadeIn{
+        from{opacity: 0;}
+    
+        to { opacity: 1;}
+    }
+
+
+    .left{
+        width: 300px;
+        height: 230px;
+        float: left;
+      border-radius: 3%;  
+        
+    
+    }
+    #head1
+    {
+        text-align: center;
+        font-size: 150%;
+     
+    }
+    
+    .right{
+        width: 300px;
+        height: 230px;
+        float: left ;
+        border-radius: 3%;
+    
+    }
+    #aside1{
+        float:right; 
+        background-color: rgb(152, 182, 145);
+        padding: 10px;
+    }
+    h1{
+        width: 100%;
+        background: linear-gradient(to right, rgba(221, 236, 182, 0.932), rgba(175, 222, 125, 0));
+        text-align: center;
+        color:aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    #table1{
+        display: grid;
+        grid-auto-flow: column;
+        width: 90%;
+        float: right;
+    }
+
+    .lajmi1{
+      display: flex;
+      flex-direction: column;
+        margin-top:10px;
+        margin-left:90px;
+    
+        height:2830px;
+        width:85%;
+        border:3px solid;
+        background-color: #EDEDED;
+        position: absolute;
+        border-color:#EDEDED;
+        padding: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+
+
+    .a{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:#9cac24;
+        font-size:40px;
+        margin-left:40px;
+        text-decoration: none;
+    }
+    .a{
+        font-size:20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#9cac24;
+        text-align: center;
+    }
+    .butoni{
+        text-decoration: none;
+        color:black;
+    }
+
+    #dd{
+        margin-left: 150px;
+        padding: 10px;
+    }
+
+    #PJANAR{
+        border: 3px double;
+border-radius: 50px;
+    }
+
+    .stinet{
+margin: 2% 2% 0 0;
+
+color: black;
+    }
+
+    #stinetP{
+margin-left: 7%;
+    }
+
+    canvas {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 78%;
+        width: 100%;
+        height: 22%;
+        background-color: rgb(182, 176, 176);
+        background-image: linear-gradient(to top, rgba(230, 242, 246, 0.7) 0%, rgba(192, 186, 186, 0.5) 5%, rgba(226, 234, 237, 0.978) 70%);
+    }
+
+
+
+/* ////////////////////////////////////////////// /*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+html, body { background: rgba(224, 220, 220, 0.842) url("https://codepen.io/images/classy_fabric.png"); }
+
+.slides {
+    padding: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+    
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+
+.nav label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+
+/* ////////////////////////////////////////////// /*/
+
