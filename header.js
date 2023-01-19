@@ -28,7 +28,7 @@ function createHeader(){
                 <a class="nav-link " href="Konviktet.html">Konviktet</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="op2.html">Aktivitete</a>
+                <a class="nav-link " href="projektiWeb.html">Aktivitete</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="#footer-container">Kontakti</a>
