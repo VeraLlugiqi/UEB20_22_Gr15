@@ -388,6 +388,7 @@ body{
   overflow: hidden;
 }
 
+
 /* Reflection on door surface */
 .door::after {
   content: '';
@@ -506,7 +507,7 @@ a:hover {
   font-size: 30px;
   text-align: center;
   padding: 10px 0 ;
-  
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
  }
  .ushqimi{
   font-size: 17px;
@@ -559,6 +560,7 @@ a:hover {
   font-size: 30px;
   text-align: center;
   padding: 10px 0 ;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
   
  }
  #meshume{

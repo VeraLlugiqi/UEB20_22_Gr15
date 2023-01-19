@@ -7,99 +7,6 @@
   padding: 0;
   scroll-behavior: smooth;
 }
-/*Navbari*/
-.Pjesa1{
-  width: 100%;
-  margin:0;
-  background-color: #3C3C3C;
-  height: 100px;
-  color:white;
-}
-.Pjesa1 a{
-  color:white
-}
-.Pjesa1 a:hover{
-  color:#c8c7c7
-}
-.st{
-    margin-top:80px;
-    /* position: absolute; */
-    height:50px;
-
-    padding-top:25px;
-    font-size:30px;
-    cursor:pointer;
-}
-
-.Pjesa1 a{
-    margin-left:30px;
-    margin-top:30px;
-    font-family: 'Lobster', cursive;
-    font-family: 'Pacifico', cursive;
-}
-header{
-    width: 100%;
-
-}
-.Pjesa1 img{
-  margin:0;
-}
-.Fotoja1{
-    
-    height:100px;
-    width: 100px;
-
-}
-
-
- /* header 1 responsive */
-.header {
-  overflow: hidden;
-  background-color: #81a1ed;
-  
-
-}
-
-.header a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-
-.header a:hover {
-  color: #c8c7c7;
-}
-
-/* .header a.active {
-  background-color: dodgerblue;
-  color: white;
-} */
-
-.header-right {
-  float: right;
-}
-
-@media screen and (max-width: 450px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
-
-
-
-
 
 /*Navbari 2*/
 .header-kon {
@@ -148,10 +55,10 @@ details > p {
 
 
 .bottom-part {
-  margin: 30px 70px;
+  margin: 30px 40px;
 }
 #all_down{
-  margin: 30px 70px;
+  margin: 30px 40px;
 }
 
 
@@ -230,6 +137,8 @@ details > p {
 }
 .bottom-title {
   text-align: center;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
+
 }
 
 #info-konvikte {
@@ -284,18 +193,19 @@ a:hover {
 /*bibloteka*/
 .bibloteka-txt{
   text-align: center;
-  padding: 30px 0px 0 0;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
+  padding: 30px 0 0 0;
 }
 .ne-shfrytezim{
   text-align: center;
   font-size: 20px;
   padding:30px 0 0 0;
-  margin: 30px 70px;
+  margin: 30px 30px;
 }
 .bibl-all{
   border: 1px solid black;
   border:3px solid;
-  margin: 30px 70px;
+  margin: 30px 40px;
   background-color: #EDEDED;
   border-color:#EDEDED;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -315,7 +225,7 @@ a{
 .konviktet-all{
   border: 1px solid black;
   border:1px solid;
-  margin: 50px 70px;
+  margin: 50px 40px;
   background-color: #EDEDED;
   border-color:#EDEDED;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -324,6 +234,8 @@ a{
 .konviktet-txt{
   text-align: center;
   padding:40px 0 20px 0;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
+
 }
 .container{
 padding: 1rem;
