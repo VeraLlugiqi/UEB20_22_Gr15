@@ -136,7 +136,7 @@ position:absolute;
         background-color: rgb(152, 182, 145);
         padding: 10px;
     }
-    h1{
+    #headingQS{
         width: 100%;
         background: linear-gradient(to right, rgba(221, 236, 182, 0.932), rgba(175, 222, 125, 0));
         text-align: center;
@@ -344,4 +344,3 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 
 /* ////////////////////////////////////////////// /*/
-

@@ -1,158 +1,173 @@
+.footer {
+    margin-top: 0px;
+    background-color: #3C3C3C;
+    height: 550px;
+    width: 100%;
 
-footer{
-    margin-top:0px;
-    background-color:#3C3C3C;
-    height:700px;
-    width:100%;
+    display: inline-block;
 
-        display: inline-block;
-    
 }
+
 .footer div {
-    
-        display: inline-block;
-    
+
+    display: inline-block;
+
 }
 
-ul li{
-    list-style:none;
+ul li {
+    list-style: none;
 }
 
 
-h1{
-    font-family:sans-serif;
-    font-weight:normal;
-    font-size:20px;
-    letter-spacing:1%;
+#h1 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1%;
     padding: 100px 0 50px;
-    color:#777;
-    text-align:center;
+    color: #777;
+    text-align: center;
 
 
 
 }
-.social-media{
+
+.social-media {
 
     justify-content: center;
     padding-bottom: 20px;
-    margin-left:40%;
-    margin-right:20px;
+    margin-left: 40%;
+    margin-right: 20px;
     border-radius: 100%;
-    
-    
-    
+
+
+
 }
 
-.social-media a{
-    
+.social-media a {
+
     margin-right: 15px;
     padding: 25px;
     text-align: center;
-    display:inline;
-    margin-right:15px;
-    margin-right:10px;
-    border-radius:8px;
+    display: inline;
+    margin-right: 15px;
+    margin-right: 10px;
+    border-radius: 8px;
     align-items: center;
     text-decoration: none;
 
 }
-.social-media a i{
-    font-size:35px;
 
-    color:#777;
-    
+.social-media a i {
+    font-size: 35px;
+
+    color: #777;
+
 
 
 }
 
 
 
-.social-media h2{
-    font-family:sans-serif;
-    font-weight:normal;
-    font-size:15px;
+.social-media h2 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 15px;
     letter-spacing: 6px;
-    padding-top:50px;
+    padding-top: 50px;
     padding-left: 20px;
-    color:#777;
+    color: #777;
 }
 
-.Searches{
+.Searches {
     font-family: sans-serif;
     padding-left: 50px;
     padding-top: 50px;
-    list-style-type:circle;
+    background-color: #3C3C3C;
+    list-style-type: circle;
 }
 
-ul li{
+ul li {
     font-family: sans-serif;
-    
-    
+
+
 }
-ul li:hover{
-    color:black;
+
+ul li:hover {
+    color: black;
 }
-.info{
+
+.info {
     display: inline;
 }
-.butonifooter{
-    background-color: grey;;
+
+.butonifooter {
+    background-color: grey;
+    ;
 }
-.socialmedia{
-    background-color: grey;;
+
+.socialmedia {
+    background-color: grey;
+    ;
 }
-.footer div{
+
+.footer div {
     display: inline-block;
 }
 
-footer{
-    width:100%;
+footer {
+    width: 100%;
     margin: 0px;
-    margin-left:0;
-    margin-top:30px;
-    background-color:#777;
-    color:azure;
+    margin-left: 0;
+    margin-top: 30px;
+    background-color: #777;
+    color: azure;
     position: relative;
     display: inline-block;
 }
 
-ul.searches{
+ul.searches {
     list-style: none;
-    
+
 }
-ul.account{
+
+ul.account {
     list-style: none;
 }
-.SignIn{
-    margin-left:400px;
-}
-.Account{
-    margin-left:200px;
-    margin-top:5px;
 
+.SignIn {
+    margin-left: 400px;
 }
 
+.Account {
+    margin-left: 200px;
+    margin-top: 5px;
 
-ul.kontakti{
+}
+
+
+ul.kontakti {
 
     padding: 36px 0 36px 70px;
 }
-.listimage1{
-    width:5px;
-    height:5px;
+
+.listimage1 {
+    width: 5px;
+    height: 5px;
 
 
 }
-ul.kontakti{
-    list-style-type:none;
+
+ul.kontakti {
+    list-style-type: none;
 }
 
-.Map{
+.Map {
     display: block;
     width: 100%;
 
 }
 
-.footer div{
-    display:inline-block;
+.footer div {
+    display: inline-block;
 }
