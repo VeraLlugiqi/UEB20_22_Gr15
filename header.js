@@ -3,7 +3,7 @@ function createHeader(){
   
     <header class="Header">
     <div class="Pjesa1">
-  <img src="/foto/Logoja111.png" class="Fotoja1" >
+  <img src="Fotot/Logoja111.png" class="Fotoja1" >
 <a class="st">Studentë n'Qender</a>
 </div>
       
@@ -16,7 +16,7 @@ function createHeader(){
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Ballina</a>
+                <a class="nav-link active" aria-current="page" href="FaqjaKryesore.html">Ballina</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="lajmet.html">Lajme</a>
@@ -31,7 +31,7 @@ function createHeader(){
                 <a class="nav-link " href="projektiWeb.html">Aktivitete</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#footer-container">Kontakti</a>
+                <a class="nav-link " href="Footer.html">Kontakti</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="/Forms/LogIn_Form.html">Log In</a>
@@ -44,8 +44,6 @@ function createHeader(){
           </div>
         </div>
       </nav>
-
-      </header>
 
     `
 };
