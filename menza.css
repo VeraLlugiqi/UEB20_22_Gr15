@@ -39,6 +39,7 @@ header{
     width: 100%;
 
 }
+
 .Pjesa1 img{
   margin:0;
 }
@@ -96,7 +97,7 @@ header{
 
 
 .header a:hover {
-  color: #c8c7c7;
+  color: black;
 }
 
 /* .header a.active {
@@ -297,6 +298,7 @@ aside {
  padding-left:5%;
  
  }
+ 
  .rregulla-par{
   font-size: 18px;
   padding:1%;
@@ -459,25 +461,28 @@ a:hover {
   font-size: 17px;
   
  }
+ .video {
+  width: 100%;
+  height: auto;
+}
  .source src{
   border-radius: 100px;
  }
  
-
+/*yllat*/
  
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
 }
-stars{
+.stars{
   height:100vh;
   display:flex;
   flex-direction: column;
   justify-content:center ;
   align-items:center;
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
 .star_rating{
@@ -495,6 +500,8 @@ stars{
   border-radius: 4rem;
   text-align:center;
   animation: scale-up 1s ease;
+  transform:translateY(-10px);
+  transition:all ease 0.3s;
 }
 
 
