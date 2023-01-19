@@ -1,23 +1,26 @@
 .artikulli1{
-    height:150px;
+    height:300px;
     margin-top:30px;
     background-color:#EDEDED;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 padding: 30px;
+grid-template-columns: 150px 150px;
 
 }
 .artikulli1 a{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#CA090C;
+    color:#81a1ed;
     text-decoration: none;
+    grid-template-columns: 150px 150px;
 }
 .artikulli2{
     margin-top:30px;
-    height:400px;
+    height:500px;
     background-color: #EDEDED;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 30px;
+    grid-template-columns: 300px 300px;
 
 
 }
@@ -25,87 +28,100 @@ padding: 30px;
     height:200px;
     width:250px;
     margin-left:30px;
+    grid-template-columns: 150px 150px;
 
 }
 .shendeti2{
     margin-left:30px;
-    height: 200px;
+    height: 300px;
     width:250px;
+    grid-template-columns: 150px 150px;
 
 }
 .artikulli2 a{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#CA090C;
+    color:#81a1ed;
     text-decoration: none;
 
-
+    grid-template-columns: 150px 150px;
 }
 .artikulli3{
-    height:200px;
+    height:300px;
     margin-top:30px;
     background-color: #EDEDED ;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding:30px;
+    grid-template-columns: 150px 150px;
 
 }
 .artikulli3 a{
 font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#CA090C;
+    color:#81a1ed;
     text-decoration: none;
+    grid-template-columns: 150px 150px;
 }
 .artikulli4{
-    height:400px;
+    height:500px;
     margin-top:30px;
     background-color: #EDEDED ;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding:30px;
+    grid-template-columns: 150px 150px;
 }
 .artikulli4 a{
     font-size: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color:#CA090C;
+        color:#81a1ed;
         text-decoration: none;
+        grid-template-columns: 150px 150px;
 }
 .artikulli4foto1{
     height:200px;
     width:200px;
+    grid-template-columns: 150px 150px;
 
 }
 .artikulli4foto2{
     height:200px;
     width:200px;
-    
+    grid-template-columns: 150px 150px;
 }
 .artikulli4foto3{
     height:200px;
     width:200px;
-    
+    grid-template-columns: 150px 150px;
 }
 .artikulli5{
-    height:200px;
+    height:300px;
     margin-top:30px;
     background-color: #EDEDED ;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding:30px;
+    grid-template-columns: 150px 150px;
 }
 .artikulli5 a{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#CA090C;
+    color:#81a1ed;
     text-decoration: none;
+    grid-template-columns: 150px 150px;
 }
 .artikulli6{
-    height:200px;
+    height:400px;
     margin-top:30px;
     background-color: #EDEDED ;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding:30px;
+    grid-template-columns: 150px 150px;
 }
 .artikulli6 a{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#CA090C;
+    color:#81a1ed;
     text-decoration: none;
+    grid-template-columns: 150px 150px;
+   
 }
+
