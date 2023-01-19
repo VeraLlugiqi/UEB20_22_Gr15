@@ -1,0 +1,73 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Lobster&family=Pacifico&family=Seymour+One&display=swap');
+.navbar-brand{
+    font-size:20px;
+    margin-left:10px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+.Pjesa1{
+    width: 100%;
+    margin:0;
+    background-color:#3C3C3C;
+    height: 100px;
+    color:white;
+
+}
+
+.Fotoja1{
+    border-radius: 100%;
+    height:70px;
+    width: 70px;
+ margin-left:30px;
+}
+.Pjesa1{
+    width: 100%;
+    margin:0;
+    background-color: #3C3C3C;
+    height: 100px;
+    color:white;
+}
+
+.st{
+    margin-top:80px;
+    position: absolute;
+    height:50px;
+    width:300px;
+    padding-top:15px;
+   text-decoration: none;
+    font-size:30px;
+    color:white;
+}
+.st a {
+    padding-top:50px;
+    text-decoration: none;
+}
+.Pjesa1 a{
+    margin-left:30px;
+    margin-top:30px;
+    font-size:20px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Seymour One', sans-serif;
+}
+.qendra a{
+    font-size:20px;
+}
+header{
+    width: 100%;
+
+}
+.Fotoja1{
+    border-radius: 100%;
+    height:70px;
+    width: 70px;
+    margin:20px;
+
+}
