@@ -35,8 +35,27 @@ li{
 list-style-type:circle;
 }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      
+      $("#show").click(function(){
+        $("#show_hide").show();
+      });
+      $("#hide").click(function(){
+        $("#show_hide").hide();
+      });
+    });
+    </script>
 
     </head>
+
+
+
+
+
+
+
   <body style="background-color:rgb(254, 247, 247)">
   <!--NAVBARI-->
   <header>
@@ -44,22 +63,7 @@ list-style-type:circle;
 <img src="logoSnQ.svg" class="Fotoja1">
 <a class="st" scr="#">Studentë n'Qender</a>
 </div>
-<!-- 
-    <div class="Pjesa2">
-        <ul class="Click">
-        <li><a href="1.html" class="menu-link">Ballina</a></li>
-    <li><a href="#" class="menu-link">Konviktet</a></li>
-    <li><a href="#"class="menu-link">Menza</a></li>
-    <li><a href="#"class="menu-link">Aktivitet</a></li>
-    <li><a href="kontakti.html"class="menu-link">Kontakti</a></li>
-    
-    <li><a href="#"class="menu-link">Administrata</a></li>
-    <li><a href="lajmet.html"class="menu-link">Lajme</a></li>
-    <li><a href="#"class="menu-link">Profili</a></li>
-        </ul>
-    </div>
 
-</header> -->
 
 <!--Navbar responisve-->
 <div class="header">
@@ -199,21 +203,27 @@ list-style-type:circle;
         <ul class="rregulla">
           <li class="li-rregullorja" >Studentët të cilët vendosen në konvikte paguajnë çmimin për strehim për nje muaj në vlerë të cilën e përcakton MASHT dhe Qendra e studentëve.</li>
           <li class="li-rregullorja" >Afati i pageses percaktohet nga Qendra e studentëve. Ata studentë të cilët e lirojnë vendin para muajit Qershor lajmërimi duhet bërë një muaj më parë tek personi zyrtar. 
-               Per mospagesë strehimibrenda afatit Studentët humbin depozitin dhe vendosen studentë të interesuar në at vend.</li>
-          <li class="li-rregullorja" >sStudentët me rastin e vendosjes paguajnë depozit në vlerë të cilen e përcakton MASHT dhe Qendra e studentëve.</li>
+                                      Per mospagesë strehimibrenda afatit Studentët humbin depozitin dhe vendosen studentë të interesuar në at vend.</li>
+          <li class="li-rregullorja" >Studentët me rastin e vendosjes paguajnë depozit në vlerë të cilen e përcakton MASHT dhe Qendra e studentëve.</li>
           <li class="li-rregullorja" >Nëse studenti është i rregullt në kryrjen e obligimeve ndaj Qendres dhe nëse gjatë vitit nuk shkakton ndonjë dem depoziti i kthehet në fund të vitit shkollor. 
-              Demet e shkaktuara lajmërohen tek shtepiaku-kompenzohen nga studentët.</li>
-                <li class="li-rregullorja" >Banimi i ilegalëve është i ndaluar rreptësisht Ata studentë të cilët pranojnë ose mbajnë ilegal së pari ndëshkohen me ndalesë depoziti, 
-            përjashtimi nga konvikti pa të drejtë rivendosje (strehimi në të ardhmen).</li>
-          <li class="li-rregullorja" >Hyrja e studentëve meshkuj në konviktet e femrave është e ndaluar dhe cdo shkelje si nga ana e studenteve, ashtuedhe nga ana e recepcionisteve sanksionohet me masa ndëshkimi konform Rregullores.</li>
-          <li class="li-rregullorja" >   Studentet femra brenda në konvikte kanë të drejt të vizitohen vetëm nga prindërit, Babai dhe nëna pas verifikimit të dokumentacionit nga ana e recepcionistit.</li>
-          <li class="li-rregullorja" >Studentet meshkuj kanë të drejtë të vizitohen nga studentet femra banuese në konvikte deri në ora 17:00, pasi të jenë evidencuar nga recepcionisti në fletore të vizitave dhe dorzimi të dokumentit identifikues.</li>
-        <li class="li-rregullorja" >Të gjithë vizitorët duke përfshi edhe anëtarët e familjes duhet te evidencohen tek recepcionisti në fletoren e vizitave.</li>
-        <li class="li-rregullorja" >Hyrje-daljet e studentëve banues në konvikte janë të lejuara deri në ora 24. Për levizjet-vonesat pas orarit duhet të merren shenimet për arsyet e të parës.</li>
-        <li class="li-rregullorja" >Qendra e studentëve nuk garanton sigurin e gjësendeve personale në dhoma.</li>
-        </ul> 
-
-       </div>
+                                      Demet e shkaktuara lajmërohen tek shtepiaku-kompenzohen nga studentët.</li>
+              <div id="show_hide" style="display:none"> 
+          <li class="li-rregullorja " >Banimi i ilegalëve është i ndaluar rreptësisht Ata studentë të cilët pranojnë ose mbajnë ilegal së pari ndëshkohen me ndalesë depoziti, 
+                                      përjashtimi nga konvikti pa të drejtë rivendosje (strehimi në të ardhmen).</li>
+          <li class="li-rregullorja ">Hyrja e studentëve meshkuj në konviktet e femrave është e ndaluar dhe cdo shkelje si nga ana e studenteve, ashtuedhe nga ana e recepcionisteve sanksionohet me masa ndëshkimi konform Rregullores.</li>
+          <li class="li-rregullorja ">Studentet femra brenda në konvikte kanë të drejt të vizitohen vetëm nga prindërit, Babai dhe nëna pas verifikimit të dokumentacionit nga ana e recepcionistit.</li>
+          <li class="li-rregullorja ">Studentet meshkuj kanë të drejtë të vizitohen nga studentet femra banuese në konvikte deri në ora 17:00, pasi të jenë evidencuar nga recepcionisti në fletore të vizitave dhe dorzimi të dokumentit identifikues.</li>
+          <li class="li-rregullorja ">Të gjithë vizitorët duke përfshi edhe anëtarët e familjes duhet te evidencohen tek recepcionisti në fletoren e vizitave.</li>
+          <li class="li-rregullorja  ">Hyrje-daljet e studentëve banues në konvikte janë të lejuara deri në ora 24. Për levizjet-vonesat pas orarit duhet të merren shenimet për arsyet e të parës.</li>
+          <li class="li-rregullorja ">Qendra e studentëve nuk garanton sigurin e gjësendeve personale në dhoma.</li>
+        </ul>
+        <button id="show" class="btn btn-primary btn-sm">Më shumë</button>
+        <button id="hide" class="btn btn-primary btn-sm">Më pak</button>
+       
+      </div> 
+      </div>
+      </div>
+       
 
         <!--Bibotekat - pjesa 2-->
         <div id="biblotekat">
@@ -864,5 +874,6 @@ list-style-type:circle;
     </div>
    
     <script src="jskonviktet.js"></script>
+   
   </body>
 </html>
