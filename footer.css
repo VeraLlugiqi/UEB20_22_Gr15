@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
-
 
 footer{
-    margin-top:200px;
-    background-color:#3C3C3C;;
+    margin-top:0px;
+    background-color:#3C3C3C;
     height:700px;
     width:100%;
 
@@ -39,45 +37,36 @@ h1{
     padding-bottom: 20px;
     margin-left:40%;
     margin-right:20px;
-    
+    border-radius: 100%;
     
     
     
 }
 
 .social-media a{
+    
     margin-right: 15px;
     padding: 25px;
     text-align: center;
     display:inline;
     margin-right:15px;
-    background: #80a8cf;
     margin-right:10px;
     border-radius:8px;
     align-items: center;
     text-decoration: none;
-    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.3),
-    -6px -6px 10px -1px rgba(255,255,255,0.7);
 
 }
 .social-media a i{
     font-size:35px;
 
     color:#777;
+    
 
 
 }
-.social-media a:hover{
-    box-shadow:6px 6px 10px -1px rbga(0,0,0,0.3),
-    -6px -6px 10px -1px rgba(255,255,255,0.7);
-    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
-    inset -4px -4px 6px -1px rgba(255,255,255,0.7);
 
-}
 
-.social-media a:hover{
-    background-color:#81a1ed;
-}
+
 .social-media h2{
     font-family:sans-serif;
     font-weight:normal;
@@ -101,20 +90,30 @@ ul li{
     
 }
 ul li:hover{
-    color:#81a1ed;
+    color:black;
 }
 .info{
     display: inline;
 }
-
+.butonifooter{
+    background-color: grey;;
+}
+.socialmedia{
+    background-color: grey;;
+}
+.footer div{
+    display: inline-block;
+}
 
 footer{
     width:100%;
     margin: 0px;
     margin-left:0;
-    position: relative;
-    background-color:rgb(40, 42, 42);
+    margin-top:30px;
+    background-color:#777;
     color:azure;
+    position: relative;
+    display: inline-block;
 }
 
 ul.searches{
@@ -125,24 +124,15 @@ ul.account{
     list-style: none;
 }
 .SignIn{
-    margin-left:230px;
+    margin-left:400px;
 }
 .Account{
-    margin-left:80px;
+    margin-left:200px;
     margin-top:5px;
 
 }
-.logo{
-    border-radius: 100%;
-    margin-top:50px;
-    margin-left: 20px;;
-    height: 150px;
-    width: 150px;
-}
 
-.map{
-    margin-top:100px;
-}
+
 ul.kontakti{
 
     padding: 36px 0 36px 70px;
@@ -156,18 +146,13 @@ ul.kontakti{
 ul.kontakti{
     list-style-type:none;
 }
-li:hover{
-    color:orangered;
+
+.Map{
+    display: block;
+    width: 100%;
 
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.FototScroll{
-    margin:5px;
-    width:200px;
-    height:200px;
+.footer div{
+    display:inline-block;
 }
