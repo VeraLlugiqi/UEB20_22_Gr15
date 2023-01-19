@@ -1,10 +1,5 @@
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-}
+
 /*Navbari*/
 .Pjesa1{
   width: 100%;
@@ -49,31 +44,6 @@ header{
     width: 100px;
 
 }
-
-/* .Pjesa2{
-  width:100%;
-  height: 50px;
-  background-color: #81a1ed;
-  margin-top:0px;
-}
-
-.Click{
-  list-style-type: none;
-  float:right;
-
-}
-.Click li{
-  float: left;
-  margin-right:25px;
-
-}
-.Click a{
-  text-decoration: none;
-  font-size:20px;
-  color:white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-} */
 
 
  /* header 1 responsive */
@@ -300,6 +270,7 @@ aside {
  }
 
 
+
  .rregulla-par{
   font-size: 18px;
   padding:1%;
@@ -320,7 +291,6 @@ aside {
   --machine-feature-gray: #A3A1A1;
   --accent-green:#81a1ed;
   --darkest-gray: #636161;
-  
 }
 
 body{
