@@ -1,0 +1,78 @@
+* {
+    font-family: "Nunito", sans-serif;
+  }
+  .section-heading {
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  
+  .section-heading h6 {
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    text-align: center;
+    color: #ff9900;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  
+  .section-heading h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #323232;
+  }
+  
+  #full-faq {
+    padding: 120px 0;
+  }
+  
+  #full-faq .faq-area .card {
+    border: 0;
+    margin: 8px 0;
+    overflow: visible;
+  }
+  
+  #full-faq .faq-area .card .card-header {
+    border: 0;
+    padding: 0;
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border: solid 1px #e3e8ec;
+    background-color: #f5f8fa;
+  }
+  
+  #full-faq .faq-area .card .card-header h2 button {
+    padding: 20px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  }
+  #full-faq .faq-area .card .card-header h2 button:focus {
+    box-shadow: none;
+  }
+  #full-faq .faq-area .card .card-header h2 button span {
+    color: #96a9b8;
+  }
+  
+  #full-faq .faq-area .card .card-header.active {
+    background-color: #fffef8;
+  }
+  
+  #full-faq .faq-area .card .card-header.active span {
+    color: #ff9900;
+  }
+  
