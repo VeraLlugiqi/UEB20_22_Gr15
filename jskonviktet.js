@@ -2,16 +2,21 @@ let firstSlide = 0;
 const data = [
   {
     image:
-      "https://www.epokaere.com/wp-content/uploads/2020/08/konviktet.jpg",
+      "qendra.jpg",
   },
   {
     image:
-      "https://kallxo.com/wp-content/uploads/2018/04/Mbjellja-e-fidaneve-n%C3%AB-Qendr%C3%ABn-e-Student%C3%ABve-768x576.jpg",
+      "fusha2.jpg",
   },
   {
     image:
-      "https://www.epokaere.com/wp-content/uploads/2020/08/konviktet.jpg",
+      "/foto/konviktet2.jpg",
   },
+  {
+    image:
+      "konv4.jpg",
+  },
+  
 ];
 
 let image = document.getElementById("grow");
