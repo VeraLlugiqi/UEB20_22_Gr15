@@ -72,9 +72,9 @@ height: 600px;
 }
 .slides{
     width:500%;
-    height:500px;
+    height:550px;
     display: flex;
-
+margin-top:20px;
 
 }
 .slides input{
