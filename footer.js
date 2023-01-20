@@ -4,30 +4,31 @@ function createFooter() {
     <footer class="footer">
                  
     
+     
       <div class="Searches">    
      
           <ul class="searches">
            <p style="color:black"><b>Top Searches</b></p><br>
-           <li>Konviktet</li>
-           <li>Menza</li>
-           <li>Pagesat</li>
-           <li>Dhomat</li>
-           <li>Bibloteka</li>
-           <li>Administrata</li>
+           <li><a href="konviktet.html" style="text-decoration:none;color:white";>Konviktet</a></li>
+           <li><a href="menza.html" style="text-decoration:none;color:white";>Menza</a></li>
+           <li><a href="konviktet.html" style="text-decoration:none;color:white";>Pagesat</a></li>
+           <li><a href="konviktet.html" style="text-decoration:none;color:white";>Bibloteka</a></li>
+           <li><a style="text-decoration:none;color:white";>Kontakti</a></li>
     
           </ul>
     
           
      </div>
     
-     
     
-     <div class="Account">
+    
+     <div class="Account" style="margin-top:2px">
       <ul class="account">
           <p style="color:black"><b>My Account</b></p><br>
       
-          <li><a style="color:white" href="Register_Form.html">Sign in/Register</a></li>
-          <li><a style="color:white" href="LogIn_Form.html">Log in</a></li>
+          <li><a style="color:white;text-decoration:none" href="Register_Form.html" >Sign in/Register</a></li>
+          <li><a style="color:white;text-decoration:none" href="LogIn_Form.html">Log in</a></li>
+      <li ></li>
       <li></li>
       <li></li>
       <li></li>
@@ -35,6 +36,7 @@ function createFooter() {
     
     
      </div>
+    
     
      <div class="SignIn">
       <p style="color:black"><b>Adresa</b></p><br>
