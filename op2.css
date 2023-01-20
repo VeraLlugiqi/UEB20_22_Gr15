@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Seymour+One&display=swap');
 
-.Pjesa1{
-    width: 100%;
-    margin:0;
-    background-color: #3C3C3C;
-    height: 100px;
 
-}
 header{
     width: 100%;
 
@@ -126,8 +120,8 @@ div{
 
 /* Titulli */
     #headingQS{
-        width: 100%;
- backgound-colur: #81a1ed;
+      width: 100%;
+        background-color:  #81a1ed;
         text-align: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	      color:aliceblue;
