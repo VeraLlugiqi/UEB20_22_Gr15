@@ -33,7 +33,7 @@ function createHeader(){
         <a class="nav-link " href="#footer-container">Kontakti</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="LogIn_Form.html">Log In</a>
+        <a class="nav-link " href="LogIn_Form.html">Kyçu</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="Ankesat.html">Ankesat</a>
