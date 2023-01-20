@@ -84,14 +84,7 @@ position:absolute;
     padding:20px;
 }
 
-#body{
-    background-color: rgb(230, 230, 218);
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
+
 
 
     tr:not(:first-child){
@@ -157,8 +150,8 @@ position:absolute;
         margin-top:10px;
         margin-left:90px;
     
-        height:2830px;
-        width:85%;
+        height:2890px;
+        width:90%;
         border:3px solid;
         background-color: #EDEDED;
         position: absolute;
@@ -169,17 +162,11 @@ position:absolute;
     }
 
 
-    .a{
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color:#9cac24;
-        font-size:40px;
-        margin-left:40px;
-        text-decoration: none;
-    }
+  
     .a{
         font-size:20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color:#9cac24;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#81a1ed;
         text-align: center;
     }
     .butoni{
@@ -187,15 +174,6 @@ position:absolute;
         color:black;
     }
 
-    #dd{
-        margin-left: 150px;
-        padding: 10px;
-    }
-
-    #PJANAR{
-        border: 3px double;
-border-radius: 50px;
-    }
 
     .stinet{
 margin: 2% 2% 0 0;
@@ -203,9 +181,7 @@ margin: 2% 2% 0 0;
 color: black;
     }
 
-    #stinetP{
-margin-left: 7%;
-    }
+ 
 
       
       #confetti {
@@ -226,7 +202,7 @@ margin-left: 7%;
 
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
-html, body { background: rgba(224, 220, 220, 0.842) url("https://codepen.io/images/classy_fabric.png"); }
+html, { background: rgba(224, 220, 220, 0.842) url("https://codepen.io/images/classy_fabric.png"); }
 
 .slides {
     padding: 0;
