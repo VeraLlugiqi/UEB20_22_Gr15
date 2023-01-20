@@ -179,6 +179,12 @@ justify-content: center;
     background: #81a1ed;
 }
 
+.Lajmeeet a{
+    text-decoration: none;
+}
+.Lajmeeet a:hover{
+    color:grey;
+}
 
 #lajmi1{
     align-items: center;
