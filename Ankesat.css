@@ -1,6 +1,5 @@
 body{
-    background-color: rgb(178, 178, 206);
-    background-repeat: no-repeat;
+    background-image: url(/foto/background.jpg);
     filter: blur();
     font-family:Raleway;
 }
@@ -10,7 +9,7 @@ body{
     color: rgb(176, 176, 184);
 }
 #form{
-    width: 370px;
+    width: 600px;
     margin: 20vh auto 0 auto;
     background-color: whitesmoke;
     border: 2px solid rgb(198, 207, 209);

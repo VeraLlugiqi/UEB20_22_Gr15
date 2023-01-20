@@ -47,7 +47,7 @@ function createHeader(){
 </div>
 </nav>
 
-    `
+  `
 };
 
 const headerContainer = document.querySelector("#header-container");
