@@ -78,7 +78,7 @@ const validoInputet = () => {
     if(password1Value === '') {
         vendosError(password1, 'Ju lutem rishtypni password-in e juaj');
     } else if (password1Value !== passwordValue) {
-        vendosError(password1, "Password-et nuk perputhen");
+        vendosError(password1, "Password-at nuk perputhen");
     } else {
         vendosSukses(password1);
     }

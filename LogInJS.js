@@ -30,7 +30,7 @@ const vendosSukses = element => {
 
 
 const validoInputet = () => {
-    var idValue = id.value.trim();
+    const idValue = id.value.trim();
     const passwordValue = password.value.trim();
    
 
@@ -49,7 +49,5 @@ const validoInputet = () => {
     }
    
 };
-
-
 
 
