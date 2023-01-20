@@ -3,7 +3,7 @@ function createHeader(){
   
     <div class="Pjesa1">
     <img src="/foto/Logoja111.png" class="Fotoja1">
-    <a class="st">Studentë n'Qender</a>
+    <a class="st">Studentë n'Qendër</a>
 </div>
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary" >

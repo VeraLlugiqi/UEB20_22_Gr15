@@ -34,6 +34,9 @@ const validimiEmail = email => {
     return re.test(String(email).toLowerCase());
 }
 
+const validimiId = id => {
+    return event.keyCode >= 48 && event.keyCode <= 57 ;
+}
 const validoInputet = () => {
     const idValue = id.value.trim();
     const emriValue = emri.value.trim();
@@ -44,7 +47,7 @@ const validoInputet = () => {
 
     if(idValue === '') {
         vendosError(id, 'Ju lutem shtypni ID');
-    } else {
+    }else{
         vendosSukses(id);
     }
 
