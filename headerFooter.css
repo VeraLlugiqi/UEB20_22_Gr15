@@ -103,7 +103,6 @@ display:flex;
 justify-content: center;
 }
 .manual-btn{
-    border: 2px solid white;
     padding:5px;
     border-radius:10px;
     cursor: pointer;
@@ -180,46 +179,6 @@ justify-content: center;
     background: #81a1ed;
 }
 
-
-
-
-/*css for automatic navigation*/
-.navigation-auto{
-    position: absolute;
-    display: flex;
-    width:800px;
-    justify-content: center;
-    margin-top:460px;
-}
-.navigation-auto div{
-    border: 2px solid #81a1ed;
-    padding:5px ;
-    border-radius:10px;
-    transition: 1s;
-}
-.navigation-auto div:not(:last-child){
-    margin-right:40px;
-
-}
-
-
-
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #81a1ed;
-}
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #81a1ed;
-}
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #81a1ed;
-}
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #81a1ed;
-}
-#radio5:checked ~ .navigation-auto .auto-btn5{
-    background: #81a1ed;
-}
 
 #lajmi1{
     align-items: center;
