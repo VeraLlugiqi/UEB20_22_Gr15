@@ -11,7 +11,7 @@ function createFooter() {
            <p style="color:black"><b>Top Searches</b></p><br>
            <li><a href="konviktet.html" style="text-decoration:none;color:white";>Konviktet</a></li>
            <li><a href="menza.html" style="text-decoration:none;color:white";>Menza</a></li>
-           <li><a href="konviktet.html" style="text-decoration:none;color:white";>Pagesat</a></li>
+           <li><a  style="text-decoration:none;color:white";>Pagesat</a></li>
            <li><a href="konviktet.html" style="text-decoration:none;color:white";>Bibloteka</a></li>
            <li><a style="text-decoration:none;color:white";>Kontakti</a></li>
     
