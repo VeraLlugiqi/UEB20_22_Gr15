@@ -38,12 +38,6 @@ header{
 .Pjesa1 img{
   margin:0;
 }
-.Fotoja1{
-    
-    height:100px;
-    width: 100px;
-
-}
 
 
  /* header 1 responsive */
@@ -148,7 +142,7 @@ details > p {
 }
 
 
-  /*fototja- sldier*/
+ /*menza jashte*/
   .oborri {
     width: 100%;
     height: 550px;
@@ -589,6 +583,17 @@ a:hover {
   width: 100%;
   height: auto;
 }
+.row{
+margin:0 auto;
+width:1000px;
+}
+.img-ushqimi{
+  width:300px;
+
+  margin-right: 150px;
+}
+
+
  .source src{
   border-radius: 100px;
  }
