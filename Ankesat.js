@@ -44,7 +44,7 @@ const validoTeDhenat = () => {
             $('#butoni').ready(function(){
               $("form").hide(500, function(){
                 alert("Ankesa e juaj eshte derguar");
-                window.location.href = "LogIn_Form.html";
+               window.location.href = "FaqjaKryesore.html";
               });
             });
           });

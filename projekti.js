@@ -3,6 +3,8 @@
 $.getScript("https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" 
  );
 
+
+
  // editimi fotove
 
  $(".left, .right").attr("border", "3px solid black")
