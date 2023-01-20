@@ -84,8 +84,18 @@
 </div>
 </div>
 
-<script type="text/javascript" src="FaqjaKryesore.js"></script>
-
+<script type="text/javascript" >
+  var counter=1;
+  setInterval(function(){
+    document.getElementById('radio'+counter).checked=true;
+    counter++;
+    if(counter > 4){
+      counter = 1;
+    }
+  },5000);
+</script>
+        
+        
  <div class="Lajmeeet" >
 <nav class="nav" style="margin-top:5px;">
   <a class="a">Lajme</a>
