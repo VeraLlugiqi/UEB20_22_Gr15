@@ -130,7 +130,7 @@ details > p {
 .bottom-title {
   text-align: center;
   font-size: 28px;
-  text-shadow: -1px 8px 8px rgb(101, 94, 94);
+  /* text-shadow: -1px 8px 8px rgb(101, 94, 94); */
   padding-top: 50px;
 
 }
@@ -180,13 +180,14 @@ aside {
 .bibloteka-txt{
   text-align: center;
   font-size: 28px;
-  text-shadow: -1px 8px 8px rgb(101, 94, 94);
+  /* text-shadow: -1px 8px 8px rgb(101, 94, 94); */
   padding: 30px 0 0 0;
 }
 .ne-shfrytezim{
   text-align: center;
   font-size: 20px;
   padding:30px 0 0 0;
+  text-shadow: -1px 8px 8px rgb(101, 94, 94);
   /* margin: 30px 30px; */
 }
 .bibl-all{
@@ -209,7 +210,7 @@ a{
   font-size: 28px;
   text-align: center;
   padding:40px 0 20px 0;
-  text-shadow: -1px 8px 8px rgb(101, 94, 94);
+  /* text-shadow: -1px 8px 8px rgb(101, 94, 94); */
 
 }
 

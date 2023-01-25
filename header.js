@@ -1,6 +1,17 @@
 function createHeader(){
     return `
+  <style> 
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+  }
   
+  #myBtn:hover {
+    background-color: #555;</style>
     <div class="Pjesa1">
     <img src="/foto/Logoja111.png" class="Fotoja1">
     <a class="st">Studentë n'Qendër</a>
@@ -47,8 +58,26 @@ function createHeader(){
 </div>
 </nav>
 
+
   `
 };
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 const headerContainer = document.querySelector("#header-container");
 headerContainer.innerHTML = createHeader();

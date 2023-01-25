@@ -62,12 +62,17 @@ list-style-type:circle;
     $(document).ready(function(){
       
       $("#show").click(function(){
-        $("#show_hide").show();
+         $("#show_hide").show();
+        $('#show_hide').fadeIn(3000);
       });
       $("#hide").click(function(){
         $("#show_hide").hide();
       });
     });
+   $(document).ready(function(){
+    $('h1').add('konviktet-txt').css("text-shadow","-1px 8px 8px rgb(101, 94, 94)")
+   })
+   
     </script>
     </head>
     <body>
@@ -75,7 +80,7 @@ list-style-type:circle;
 
           
       <header id="header-container"></header>
-
+      <button onclick="topFunction()" class="btn btn-primary btn-sm "id="myBtn" title="shko lart">Lart</button>
     <!--Navbari 2-->
     <header class="header-kon">
       <p class="header-title"><a href="#cmimi">Informata</a></p>
@@ -83,9 +88,9 @@ list-style-type:circle;
       <p class="header-title"><a href="#biblotekat">Bibloteka</a></p>
       
       <details>
-        <summary class="header-title" style="font-size: 19px">Konviktet</summary>
+        <summary class="header-title"  style="font-size: 19px">Konviktet</summary>
         <div class="datails-div">
-          <p class="detail-links" id="paragraph"><a href="#kon1"> Konvikti 1 </a></p>
+          <p class="detail-links" id="paragraph"><a href="#kon1" id="slidedown1"> Konvikti 1 </a></p>
           <p class="detail-links" id="paragraph"><a href="#kon2"> Konvikti 2 </a></p>
           <p class="detail-links" id="paragraph"><a href="#kon3"> Konvikti 3 </a></p>
           <p class="detail-links" id="paragraph"><a href="#kon4"> Konvikti 4 </a></p>
@@ -210,7 +215,7 @@ list-style-type:circle;
           <li class="li-rregullorja  ">Hyrje-daljet e studentëve banues në konvikte janë të lejuara deri në ora 24. Për levizjet-vonesat pas orarit duhet të merren shenimet për arsyet e të parës.</li>
           <li class="li-rregullorja ">Qendra e studentëve nuk garanton sigurin e gjësendeve personale në dhoma.</li>
         </ul>
-        <button id="show" class="btn btn-primary btn-sm">Më shumë</button>
+        <button id="show" class="shume-slow btn btn-primary btn-sm">Më shumë</button>
         <button id="hide" class="btn btn-primary btn-sm">Më pak</button>
        
       </div> 
@@ -269,7 +274,7 @@ list-style-type:circle;
         <div class="konviktet-all">
          <!-- <p> Më posht gjeni pamjet se si duken dhomat, banjo dhe leximoret mbrenda në konvikte </p> -->
     <div class="cover-al"> 
-        <div class="container konv-all" id="kon1" >
+        <div class="container konv-all " id="kon1" >
           <h1>Konvikti 1</h1>
 
           <div class="row">
