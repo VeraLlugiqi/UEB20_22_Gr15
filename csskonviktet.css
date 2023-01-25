@@ -54,9 +54,6 @@ details > p {
 }
 
 
-.bottom-part {
-  margin: 30px 40px;
-}
 #all_down{
   margin: 30px 40px;
 }
@@ -189,12 +186,12 @@ aside {
   text-align: center;
   font-size: 20px;
   padding:30px 0 0 0;
-  margin: 30px 30px;
+  /* margin: 30px 30px; */
 }
 .bibl-all{
   border: 1px solid black;
   border:3px solid;
-  margin: 30px 40px;
+  /* margin: 30px 40px; */
   background-color: #EDEDED;
   border-color:#EDEDED;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -204,22 +201,8 @@ a{
   text-decoration: none;
   color:white
 }
-.konv-all{
-  border: 1px solid black;
-  border:3px solid;
-  border-color:#bbb9b9;
-  border-radius: 15px;
-  width:90%
-  
-}
-.konviktet-all{
-  border: 1px solid black;
-  border:1px solid;
-  margin: 50px 40px;
-  background-color: #EDEDED;
-  border-color:#EDEDED;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+
+
 /*foto konviktet bootstrap*/
 .konviktet-txt{
   font-size: 28px;
@@ -228,9 +211,13 @@ a{
   text-shadow: -1px 8px 8px rgb(101, 94, 94);
 
 }
-.container{
-padding: 1rem;
-margin-top: 3rem;
+
+.cover-al{
+  background-color: #EDEDED; 
+  border-color: #EDEDED; 
+ box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+ padding-bottom: 40px;
+margin: 30px 0;
 }
 .container > h1{
   font-size: 25px;
@@ -239,10 +226,10 @@ margin-top: 3rem;
 }
 .image-boot{
   display: block;
-  width:90%;
+  width:80%;
+  height: 80%;
   margin:0;
 border: 5px solid white;
-  
 }
 .overlay{
   position:apsolute;
@@ -274,6 +261,7 @@ border: 5px solid white;
 /*rritja e fotove pas h*/
  .grow-bl{
     transition: .3s ease;
+    border: 5px solid white;
 }
 .grow-bl:hover{
     transform: scale(1);
