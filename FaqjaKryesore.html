@@ -31,8 +31,15 @@
         <img src="foto/Qendra-e-Studenteve.png " class="fotokryesore" style="width:1200px;height:600px">
         <div class="box2">
             <a href="#" class="text">Po ndodh tani në Qendren e Studenteve.......</a><br><br><br>
-            <button href="lajmet.html" class="buttonikryesor"><a href="lajmet.html#po_ndodh">Lexo me shume</a></button>
-
+<button href="lajmet.html" class="buttonikryesor"  onclick="play()">
+              <audio autoplay src="audio/ballina.mp3" id="audio"></audio>
+              <a href="lajmet.html" >Lexo me shume</a></button>
+<script>
+  function play(){
+var audio = document.getElementById("audio");
+audio.play();
+  }
+</script>
         </div>
     </div>
     </div>
