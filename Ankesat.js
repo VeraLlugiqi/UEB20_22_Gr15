@@ -34,7 +34,6 @@ const validoEmail = email => {
 const validoTeDhenat = () => {
     const ankesatValue = ankesat.value.trim();
     const emailValue = email.value.trim();
-    
 
     if(ankesatValue === '') {
         vendosError(ankesat, 'Ju lutem shtypni komentet e juaja');
@@ -61,6 +60,23 @@ const validoTeDhenat = () => {
     }
   
 };
+
+
+function myFunctiontry() {
+    const message = document.getElementById("p01");
+    message.innerHTML = "";
+    let x = document.getElementById("serioziteti").value;
+    try { 
+        if(x === '') throw "është e zbrazët"
+      if(isNaN(x)) throw "nuk është  numer.";
+      x = Number(x);
+      if(x > 10)   throw "është shumë e madhe.";
+      if(x < 1) throw "është shumë e vogël."
+    }
+    catch(err) {
+      message.innerHTML = "Vlera e vendosur " + err;
+    }
+  }
 
 
 

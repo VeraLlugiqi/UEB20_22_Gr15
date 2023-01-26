@@ -34,9 +34,6 @@ const validimiEmail = email => {
     return re.test(String(email).toLowerCase());
 }
 
-const validimiId = id => {
-    return event.keyCode >= 48 && event.keyCode <= 57 ;
-}
 const validoInputet = () => {
     const idValue = id.value.trim();
     const emriValue = emri.value.trim();
@@ -46,8 +43,12 @@ const validoInputet = () => {
     const password1Value = password1.value.trim();
 
     if(idValue === '') {
-        vendosError(id, 'Ju lutem shtypni ID');
-    }else{
+        vendosError(id, 'Ju lutem shtypni id');
+    } else if(isNaN(idValue)) {
+        vendosError(id, 'Ju lutem shtypni nje id valide');
+    }else if(idValue.length !== 8){
+        vendosError(id, 'ID duhet te kete saktesisht 8 numra')
+    }else {
         vendosSukses(id);
     }
 
@@ -72,7 +73,7 @@ const validoInputet = () => {
 
     if(passwordValue === '') {
         vendosError(password, 'Ju lutem shtypni nje password');
-    } else if (passwordValue.length < 10 ) {
+    } else if (passwordValue.length <= 10 ) {
         vendosError(password, 'Password-i duhet te jete te pakten 10 karaktere')
     } else {
         vendosSukses(password);

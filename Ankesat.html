@@ -17,6 +17,8 @@
 
         <!--Header-->
         <header id="header-container"></header>
+        <button onclick="topFunction()" class="btn btn-primary btn-sm "id="myBtn" 
+        title="shko lart">Lart</button>
          
         <!--Ankesa Form-->
       <div class="maindiv">
@@ -86,7 +88,14 @@
                 <div class="error"></div>
             </div>
             <div class="formdiv">
-                <input type="submit" id="butoni" value="Dergo">
+                <label for="serioziteti">Serioziteti i ankesës tuaj prej 1 deri ne 10</label>
+                <input id="serioziteti" name="serioziteti" type="text">
+                <p class="opsionale">Opsionale</p>
+                <p id="p01"></p>
+
+            </div>
+            <div class="formdiv">
+                <input type="submit" id="butoni" value="Dergo" onclick="myFunctiontry()">
                 <div id="div1">Forma e juaj eshte derguar me sukses</div>
                 <div class="error"></div>
             </div>

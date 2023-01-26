@@ -6,7 +6,12 @@ const password = document.getElementById('password');
 form.addEventListener('submit', e => {
     e.preventDefault();
     validoInputet();
+
 });
+const validimiID = id => {
+    const re = /^((\[[0-9]{1,3}\.))$/;
+    return re.test(String(id));
+}
 
 const vendosError = (element, message) => {
     const inputi = element.parentElement;
@@ -26,17 +31,17 @@ const vendosSukses = element => {
     inputi.classList.remove('error');
 };
 
-
-
-
 const validoInputet = () => {
     const idValue = id.value.trim();
     const passwordValue = password.value.trim();
-   
-
+     
     if(idValue === '') {
-        vendosError(id, 'Ju lutem shtypni ID');
-    } else {
+        vendosError(id, 'Ju lutem shtypni id');
+    } else if(isNaN(idValue)){
+        vendosError(id, 'Ju lutem shtypni nje id valide');
+    }else if(idValue.length !== 8){
+        vendosError(id, 'ID duhet te kete saktesisht 8 numra')
+    }else {
         vendosSukses(id);
     }
   
@@ -47,7 +52,8 @@ const validoInputet = () => {
     } else {
         vendosSukses(password);
     }
-   
+
 };
+
 
 
