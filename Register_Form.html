@@ -17,9 +17,7 @@
     <body>
         <!--Header-->
         <header id="header-container"></header>
-        <button onclick="topFunction()" class="btn btn-primary btn-sm "id="myBtn" 
-        title="shko lart">Lart</button>
-        
+
           <!--Register Form-->
         <div class="maindiv">
             <form id="form" action="/">
@@ -53,6 +51,21 @@
                     <label for="password1">Rishtyp Password-in</label>
                     <input id="password1"name="password1" type="password" placeholder="Rishtypni passwordin ">
                     <div class="error"></div>
+                    <label for="audio">Shkruani atë që dëgjoni</label>
+                    <audio style="width:90%" controls>
+                        <source src="audio/redroses.mp3" type="audio/mp3">
+                        <source src="audio/redroses.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                      </audio>
+                      
+                      <input id="audio1"name="audio1" type="text" placeholder="Sheno tekstin ">
+                      <div class="error"></div>
+                      <audio style="width:90%" controls>
+                        <source src="audio/university.mp3" type="audio/mp3">
+                        <source src="audio/university.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                      </audio>
+                      <input id="audio"name="audio2" type="text" placeholder="Sheno tekstin ">
                 </div>
                 <button id="butoni" type="submit">Regjistrohu</button>
             </form>
