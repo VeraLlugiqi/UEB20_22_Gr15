@@ -1,17 +1,6 @@
 function createHeader(){
     return `
-  <style> 
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    cursor: pointer;
-  }
-  
-  #myBtn:hover {
-    background-color: #555;</style>
+
     <div class="Pjesa1">
     <img src="/foto/Logoja111.png" class="Fotoja1">
     <a class="st">Studentë n'Qendër</a>
