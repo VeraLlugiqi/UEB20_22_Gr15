@@ -58,9 +58,10 @@ function createHeader(){
 </div>
 </nav>
 
-
-  `
+`
 };
+
+
 
 let mybutton = document.getElementById("myBtn");
 
@@ -81,3 +82,4 @@ function topFunction() {
 
 const headerContainer = document.querySelector("#header-container");
 headerContainer.innerHTML = createHeader();
+
