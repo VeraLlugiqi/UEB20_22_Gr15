@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kerkesat.css">
+
+
+    <title>Kerkesat</title>
+
+</head>
+
+<body>
+
+    <!-- Drag and drop me objekte -->
+    <div id="validimi">
+        <H3> Valido qe nuk jeni robot ! </H3>
+        <div id="drag-element" draggable="true" ondragstart="drag(event)" ondragend="dragEnd(event)">ID e juaj </div>
+        <br>
+        <div id="drop-element" ondrop="drop(event)" ondragover="allowDrop(event)">Zvarrit ID ketu per te validuar
+        </div>
+    </div> <!-- Mbyllja e div validimi -->
+    <script src="kerkesat.js"></script>
+
+</body>
+
+</html>
