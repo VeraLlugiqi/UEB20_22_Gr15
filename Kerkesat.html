@@ -14,6 +14,13 @@
 
 <body>
 
+    <div id="data">
+        <p id="shfaqjaDates"></p>
+        <script>
+            document.getElementById("shfaqjaDates").innerHTML = Date();
+        </script>
+
+    </div>
     <!-- Drag and drop me objekte -->
     <div id="validimi">
         <H3> Valido qe nuk jeni robot ! </H3>
@@ -22,6 +29,7 @@
         <div id="drop-element" ondrop="drop(event)" ondragover="allowDrop(event)">Zvarrit ID ketu per te validuar
         </div>
     </div> <!-- Mbyllja e div validimi -->
+
     <script src="kerkesat.js"></script>
 
 </body>
