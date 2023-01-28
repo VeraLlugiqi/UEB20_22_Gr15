@@ -40,7 +40,7 @@ let studentet = [
 ];
 console.log(studentet);
 
-// Duke perdorur filter gjejm studentin me id te caktuar, nese vonon me shum se 5 sekonda ky funksion permes timeOut perjashtohet
+// Duke perdorur filter gjejm studentin me id te caktuar, ky funksion fillon ekzekutimin pas 5 sekondave 
 
 function GjejStudentin() {
 
@@ -72,3 +72,22 @@ studentet.forEach(student => console.log(student.id));
 
 
 
+class Personeli{
+    constructor(emri,mbiemri,pozita){
+        this.emri = emri;
+        this.mbiemri = mbiemri;
+        this.pozita = pozita;
+    }
+    printo(){
+        console.log(this.emri + " " + this.mbiemri + "  " + this.pozita);
+    }
+}
+
+var personeli1 = new Personeli("Fatmir","Sfishta" , "Drejtor i pergjithshem");
+personeli1.printo();
+
+var personeli2  = new Personeli("Drita","Rama" , "Zevendes-drejtoreshe");
+personeli2.printo();
+
+var personeli3  = new Personeli("Granit","Shala" , "Recepsionist");
+personeli3.printo();
