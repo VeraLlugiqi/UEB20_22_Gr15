@@ -91,3 +91,49 @@ personeli2.printo();
 
 var personeli3  = new Personeli("Granit","Shala" , "Recepsionist");
 personeli3.printo();
+
+
+let Pagesat = [
+    {id : 12345678, ShumaPaguar : 20 },
+    {id : 12345679, ShumaPaguar : 35 },
+    {id : 12345689, ShumaPaguar : 35 },
+    {id : 12345688, ShumaPaguar : 35 },
+    {id : 12345687, ShumaPaguar : 20 },
+    {id : 12345699, ShumaPaguar : 35 },
+    {id : 12345776, ShumaPaguar : 35 },
+    {id : 12345778, ShumaPaguar : 20 },
+    {id : 12345778 },
+    {id : 12345658, ShumaPaguar : 35 }
+];
+console.log(Pagesat);
+
+var x, y, test, obj;
+x = Pagesat;
+y = JSON.stringify(x);
+localStorage.setItem("StudentetQeKanePaguar : ", y); // ne file StudentetQeKanePaguar e ruajm Pagesat por si string
+// eshte perdor stringify ne vend te toSTRING() pasi qe e kemi perdor ne ushtrime perodret edhe set qe eshte kerkese(rreshti 126 - setItem) 
+console.log(y);
+
+
+
+// match and replace edhe pse not recomended
+
+let matches = y.match(/20/g);
+console.log(matches);
+
+
+let replaced = y.replace(/20/g, "30");
+Pagesat = JSON.parse(replaced);
+
+console.log(Pagesat);
+
+
+// Gjeje studentet qe pagesen e kane NaN dmth nuk kane perfunduar pagesen 
+
+let NaNValue = Pagesat.filter(function(p) { return isNaN(p.ShumaPaguar); });
+console.log("Studentet qe nuk kane kryer pagesen :", NaNValue);
+
+
+
+
+
