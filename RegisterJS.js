@@ -5,6 +5,8 @@ const mbiemri = document.getElementById('mbiemri');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const password1 = document.getElementById('password1');
+const audio = document.getElementById('audio');
+const audio1 = document.getElementById('audio1');
 
 form.addEventListener('submit', e => {
     e.preventDefault();
@@ -41,6 +43,9 @@ const validoInputet = () => {
     const emailValue = email.value.trim();
     const passwordValue = password.value.trim();
     const password1Value = password1.value.trim();
+    const audioValue = audio.value.trim();
+    const audio1Value = audio1.value.trim();
+
 
     if(idValue === '') {
         vendosError(id, 'Ju lutem shtypni id');
@@ -86,5 +91,49 @@ const validoInputet = () => {
     } else {
         vendosSukses(password1);
     }
+
+    const text = "I like red roses";
+    const textU = text.toUpperCase();
+    const textL = text.toLowerCase();
+      if(audioValue === '') {
+        vendosError(audio, 'Ju lutem shkruajeni ate qe e degjoni ne audio');
+    } else if(audioValue == text) {
+        vendosSukses(audio);
+    }
+    else if(audioValue == textU){
+        vendosSukses(audio);
+    }
+    else if(audioValue == textL){
+        vendosSukses(audio);
+    }
+    else{
+        vendosError(audio, "Ju lutem ridegjojeni dhe rishkruani tekstin pa gabime");
+    }
+
+    const text1 = "He's a university student";
+    const text1P = text1
+  .replace(/[.,\/#!$%\^&\*;:{}=\-_`'~()]/g, "")
+  .replace(/\s{2,}/g, " ");
+    const text1U = text1.toUpperCase();
+    const text1L = text1.toLowerCase();
+    const text1UP = text1P.toUpperCase();
+    const text1LP = text1P.toLowerCase();
+    if(audio1Value === '') {
+        vendosError(audio1, 'Ju lutem shkruajeni ate qe e degjoni ne audio');
+    }
+    else if((audio1Value == text1) ||
+    (audio1Value == text1P) ||
+    (audio1Value == text1U) ||
+    (audio1Value == text1L) ||
+    (audio1Value == text1UP) ||
+    (audio1Value == text1LP) )
+    {
+        vendosSukses(audio1);
+    }
+    else{
+        vendosError(audio1, "Ju lutem ridegjojeni dhe rishkruani tekstin pa gabime");
+    }
+
+    
 
 };
